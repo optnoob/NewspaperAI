@@ -1,0 +1,406 @@
+{
+  "edition_date": "2026-11-01",
+  "generated_at": "2026-11-05T13:37:34.029Z",
+  "run_ids": [
+    "newspaper-digest-20261101-021948",
+    "newspaper-digest-20261101-022716",
+    "stock-watcher-20261101-0302",
+    "stock-watcher2-20261101-0305"
+  ],
+  "lead_story_id": "goog-10-ai-2000-1vsd2ay",
+  "story_count": 11,
+  "sections": [
+    {
+      "id": "sector-technology",
+      "kind": "sector",
+      "title": "Technology",
+      "tickers": [
+        "GOOG",
+        "NVDA",
+        "AAPL",
+        "SPYM",
+        "SPY",
+        "VOO",
+        "ICE",
+        "TSM"
+      ],
+      "lede": "Q3搜索收入低於預期，2027 CapEx大幅提高引發憂慮",
+      "sentiment": -0.15,
+      "stories": [
+        {
+          "id": "goog-10-ai-2000-1vsd2ay",
+          "event_key": null,
+          "headline": "🔴 GOOG大跌10%，AI支出$2000億未見明確回報",
+          "dek": "Q3搜索收入低於預期，2027 CapEx大幅提高引發憂慮",
+          "body_md": "**最新評級**（2026-10-31）：\n- Wells Fargo: Buy $400\n- Morgan Stanley: Buy $370\n- Citi: Buy $400\n- RBC Capital: Buy $405\n- Oppenheimer: Buy $430（最高）\n- Guggenheim: **Sell $160**（唯一空方）\n\n**資安最新形勢**（用戶要求關注點）：\n- 市占率：全球586萬家企業使用Cloudflare，23.4%全球網站使用\n- 大客戶：4,298家大客戶貢獻73%營收\n- DDoS防禦：2025年緩解4,710萬次DDoS攻擊，12月創31.4 Tbps紀錄\n- 估值重估：分析師從\"資安股\"重新分類為\"AI基礎設施\"，享更高估值倍數\n\n**危險信號**：Guggenheim極端看空$160，暗示估值分歧；高級管理層9月拋售$3,524萬普通股。",
+          "tickers": [
+            "GOOG",
+            "NVDA",
+            "AAPL",
+            "SPYM",
+            "SPY",
+            "VOO",
+            "ICE",
+            "TSM",
+            "2330.TW",
+            "LLY",
+            "TSLA",
+            "QQQM",
+            "QQQ",
+            "IGV",
+            "CRWD",
+            "NET",
+            "ASTS",
+            "AVAV"
+          ],
+          "sector": "Technology",
+          "importance": 5,
+          "sentiment": -0.6,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Google Q3 earnings miss, AI spending concerns",
+              "url": "https://news.futunn.com/",
+              "publisher": "Futu",
+              "published_at": "2026-10-30T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "h6-2026-touch-taiwan-2025-epaper-d0sy62",
+          "event_key": null,
+          "headline": "🖥️ 元太科技H6產線2026底完工，Touch Taiwan 2025創史上最大ePaper展館",
+          "dek": "101家夥伴聯合，大面積eink面板應用拓展",
+          "body_md": "**蓋廠進度**（用戶要求關注點）：\n- H5產線（新竹）已完工\n- **H6產線預定2026年底完成**\n- 全新觀音廠（桃園）規劃中\n\n**eink面板成長情況**（用戶要求關注點）：\n- Touch Taiwan 2025：聯合101家夥伴創建史上最大ePaper展館\n- 六大面板廠商齊聚\n- 大面積eink面板應用拓展（電子紙看板、IoT）\n\n**⚠️ 警告**：Futu API無台股8069新聞（搜索結果為空），需進一步透過台股財報、產業報告補充。",
+          "tickers": [
+            "8069.TWO"
+          ],
+          "sector": "Technology",
+          "importance": 3,
+          "sentiment": 0.6,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "E Ink H6 production line completion scheduled for end 2026",
+              "url": "https://www.eink.com/",
+              "publisher": "E Ink",
+              "published_at": "2026-10-15T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-macro-economics",
+      "kind": "sector",
+      "title": "Macro Economics",
+      "tickers": [
+        "QQQM",
+        "SPYM",
+        "GDE",
+        "IGV"
+      ],
+      "lede": "9月已升息25基點至3.75%-4.00%，科技股估值面臨壓力",
+      "sentiment": -0.3,
+      "stories": [
+        {
+          "id": "fed-fomc-11-3-svz1s7",
+          "event_key": null,
+          "headline": "🔴 Fed FOMC 11/3利率決議在即，市場關注升息週期",
+          "dek": "9月已升息25基點至3.75%-4.00%，科技股估值面臨壓力",
+          "body_md": "**關鍵時間點**：2026-11-03 10:00 AM ET\n\n美聯儲9月16日已升息25基點至3.75%-4.00%（12-0全票通過），11月3日將召開下次FOMC會議。市場預期升息接近尾聲，但通膨壓力仍然存在。\n\n**對市場影響**：\n- 科技股高估值面臨壓力（QQQM、SPYM、IGV受影響）\n- 實質利率見頂有利黃金（GDE）\n- 衰退風險評估：J.P. Morgan 35%機率，RSM 30%機率（從40%下調）\n\n**經濟展望**：共識預測2026年GDP成長2.1-3%，\"軟著陸\"為主要情境。",
+          "tickers": [
+            "QQQM",
+            "SPYM",
+            "GDE",
+            "IGV"
+          ],
+          "sector": "Macro Economics",
+          "importance": 5,
+          "sentiment": -0.3,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Federal Reserve FOMC November 2026 interest rate decision",
+              "url": "https://www.federalreserve.gov/",
+              "publisher": "Federal Reserve",
+              "published_at": "2026-09-16T14:00:00Z"
+            },
+            {
+              "title": "Bloomberg",
+              "url": "https://bloomberg.com/markets/fed-2026",
+              "publisher": "Bloomberg",
+              "published_at": "2026-11-01T02:19:48.559155"
+            },
+            {
+              "title": "路透社",
+              "url": "https://reuters.com/markets/fed-minutes",
+              "publisher": "Reuters",
+              "published_at": "2026-11-01T02:19:48.559166"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ticker-nvda",
+      "kind": "ticker",
+      "title": "NVDA",
+      "tickers": [
+        "NVDA"
+      ],
+      "lede": "- **2026-11-02 (週一)**: AAPL Q4 財報 (iPhone Duo 需求 vs 記憶體成本壓力)",
+      "sentiment": 0.264,
+      "stories": [
+        {
+          "id": "-11g2016",
+          "event_key": null,
+          "headline": "**關鍵日期警示**",
+          "dek": "- **2026-11-02 (週一)**: AAPL Q4 財報 (iPhone Duo 需求 vs 記憶體成本壓力)",
+          "body_md": "| 標的 | 短期風險 | 中期機會 | 關鍵觀察點 |\n\n|------|---------|---------|----|\n\n| **NVDA** | 🔴 市值跌破$5T，機構減倉 | 🟢 CPO新技術、AI推理投資 | 月底反彈能否守住；地緣政治風險 |\n\n| **TSLA** | 🔴 中國競爭、期權看跌 | 🟢 Semi量產、SpaceX合併題材 | 11月交付量；中國融資方案成效 |\n\n| **AAPL** | ⚠️ 11/2財報記憶體成本壓力 | 🟢 市值第一、AI中國版11/4測試 | Q4財報指引；iPhone Duo需求持續性 |\n\n---\n\n**消息來源統計**:\n\n- ✅ Futu 新聞 API: 45則 (每ticker 15則)\n\n- ✅ Web Search: 18則\n\n- ✅ 機構: BofA, Goldman Sachs, Daiwa, UBS, Barron's\n\n**免責聲明**: 以上內容綜合公開資訊整理，不構成投資建議。",
+          "tickers": [
+            "NVDA",
+            "TSLA",
+            "AAPL"
+          ],
+          "sector": "General",
+          "importance": 4,
+          "sentiment": -0.7,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Market Intelligence Digest",
+              "url": "https://internal/digest",
+              "publisher": "Internal Analysis",
+              "published_at": "2026-11-01T02:27:16.445471"
+            }
+          ]
+        },
+        {
+          "id": "rallies-6-on-strong-data-center-demand-1frl8qc",
+          "event_key": null,
+          "headline": "Rallies 6% on Strong Data Center Demand",
+          "dek": "Nvidia beats Q3 expectations as AI infrastructure spending accelerates",
+          "body_md": "Nvidia beats Q3 expectations as AI infrastructure spending accelerates.\n\nRevenue reached $18.1 billion, up 34% year-over-year, with data center segment growing 41%. CEO Jensen Huang highlighted enterprise AI adoption as a key growth driver.",
+          "tickers": [
+            "NVDA"
+          ],
+          "sector": "Markets",
+          "importance": 4,
+          "sentiment": 0.9,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Reuters",
+              "url": "https://reuters.com/tech/nvidia-q3-2026",
+              "publisher": "Reuters",
+              "published_at": "2026-11-01T02:19:48.558756"
+            },
+            {
+              "title": "Bloomberg",
+              "url": "https://bloomberg.com/markets/nvidia-earnings",
+              "publisher": "Bloomberg",
+              "published_at": "2026-11-01T02:19:48.558782"
+            }
+          ]
+        },
+        {
+          "id": "expands-packaging-partnership-1xdamxv",
+          "event_key": null,
+          "headline": "Expands Packaging Partnership",
+          "dek": "A multi-year agreement adds advanced packaging lines dedicated to accelerator production",
+          "body_md": "A multi-year agreement adds advanced packaging lines dedicated to accelerator production.\n\nThe agreement reserves dedicated advanced-packaging capacity beginning in 2027, addressing the bottleneck management has repeatedly flagged.",
+          "tickers": [
+            "NVDA"
+          ],
+          "sector": "Markets",
+          "importance": 3,
+          "sentiment": 0.7,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Packaging deal signed",
+              "url": "https://example.com/wire/nvda-packaging",
+              "publisher": "Example",
+              "published_at": "2026-11-01T02:19:48.559070"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-markets",
+      "kind": "sector",
+      "title": "Markets",
+      "tickers": [
+        "E"
+      ],
+      "lede": "Brent crude falls to $82 as Saudi Arabia hints at output increase",
+      "sentiment": -0.529,
+      "stories": [
+        {
+          "id": "oil-prices-drop-3-on-opec-production-hike-signals-16kfrng",
+          "event_key": null,
+          "headline": "Oil Prices Drop 3% on OPEC+ Production Hike Signals",
+          "dek": "Brent crude falls to $82 as Saudi Arabia hints at output increase",
+          "body_md": "Brent crude falls to $82 as Saudi Arabia hints at output increase.\n\nEnergy markets sold off after Saudi Arabia's energy minister suggested OPEC+ may increase production quotas in December.\n\n**Brent crude** fell to $82.15/barrel while WTI dropped to $78.50. Analysts expect volatility ahead of next month's meeting.",
+          "tickers": [
+            "E"
+          ],
+          "sector": "Markets",
+          "importance": 4,
+          "sentiment": -0.7,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "OPEC+ Signals Output Hike",
+              "url": "https://bloomberg.com/energy/opec-production-2026",
+              "publisher": "Bloomberg",
+              "published_at": "2026-11-01T02:19:48.559103"
+            }
+          ]
+        },
+        {
+          "id": "crude-inventories-rise-2-4m-barrels-1dxfrq5",
+          "event_key": null,
+          "headline": "Crude Inventories Rise 2.4M Barrels",
+          "dek": "EIA data shows build as refiners slow runs ahead of maintenance",
+          "body_md": "EIA data shows build as refiners slow runs ahead of maintenance.\n\nWeekly crude stockpiles increased more than expected, with refinery utilization dropping to 88.2%.",
+          "tickers": [
+            "E"
+          ],
+          "sector": "Markets",
+          "importance": 3,
+          "sentiment": -0.3,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "EIA Weekly Report",
+              "url": "https://eia.gov/petroleum/supply/weekly/",
+              "publisher": "Eia",
+              "published_at": "2026-11-01T02:19:48.559128"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-commodities",
+      "kind": "sector",
+      "title": "Commodities",
+      "tickers": [
+        "GDE",
+        "MU"
+      ],
+      "lede": "高盛、摩根大通看多，2025年央行買入863噸黃金",
+      "sentiment": 0.8,
+      "stories": [
+        {
+          "id": "4-900-6-300-mfqgfz",
+          "event_key": null,
+          "headline": "💰 金價目標上調至$4,900-$6,300，中央銀行持續買進",
+          "dek": "高盛、摩根大通看多，2025年央行買入863噸黃金",
+          "body_md": "**供應 & 需求**（用戶要求關注點）：\n- Goldman Sachs：CoWoS產能擴張無法立即緩解，DRAM漲價可能持續至2028\n- HBM平均價格預計2027年激增122%\n- 單條HBM3E模組$60-100 vs. DDR5僅$5-10\n\n**工廠產線情況**（用戶要求關注點）：\n- ✅ Micron：$93億新廠動工，2028 Q3投產\n- ✅ SK Hynix：2027 HBM產能75%已預售（大幅提價）\n- ❌ 2026年DRAM供給僅增16%，遠不及AI需求\n\n**價格走勢**：\n- Q3 DRAM & NAND季增20-30%\n- Bernstein目標價Micron $1,300（記憶體超級週期）\n- Daiwa上調PC DRAM Q4合約價預測至13%-18%季增",
+          "tickers": [
+            "GDE",
+            "MU"
+          ],
+          "sector": "Commodities",
+          "importance": 4,
+          "sentiment": 0.8,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Goldman Sachs raises gold price forecast to $4,900",
+              "url": "https://www.goldmansachs.com/",
+              "publisher": "Goldman Sachs",
+              "published_at": "2026-10-25T00:00:00Z"
+            },
+            {
+              "title": "JPMorgan: Gold to reach $6,000/oz by Q4 2026",
+              "url": "https://www.jpmorgan.com/",
+              "publisher": "JPMorgan",
+              "published_at": "2026-10-28T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-etf-index",
+      "kind": "sector",
+      "title": "ETF/Index",
+      "tickers": [
+        "0050.TW",
+        "3665.TW",
+        "3443.TW",
+        "8046.TW",
+        "4958.TW"
+      ],
+      "lede": "BizLink-KY、Global Unichip、Nan Ya PCB、Zhen Ding加入",
+      "sentiment": 0.6,
+      "stories": [
+        {
+          "id": "0050-4-ai-h5owvv",
+          "event_key": null,
+          "headline": "🇹🇼 台灣0050新增4檔AI概念股，剔除傳統產業三巨頭",
+          "dek": "BizLink-KY、Global Unichip、Nan Ya PCB、Zhen Ding加入",
+          "body_md": "**成分股變動**：\n- **新增**：BizLink-KY (3665)、Global Unichip (3443)、Nan Ya PCB (8046)、Zhen Ding Technology (4958)\n- **剔除**：中鋼、台塑、和泰汽車\n\n**產業轉向**：從傳統製造轉向AI供應鏈（PCB、晶片設計），反映台股結構調整追蹤全球AI熱潮。\n\n**機會信號**：AI硬體供應鏈台廠受惠（PCB、封測、晶片設計）。",
+          "tickers": [
+            "0050.TW",
+            "3665.TW",
+            "3443.TW",
+            "8046.TW",
+            "4958.TW"
+          ],
+          "sector": "ETF/Index",
+          "importance": 3,
+          "sentiment": 0.6,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Taiwan 0050 ETF constituent changes November 2026",
+              "url": "https://www.twse.com.tw/",
+              "publisher": "TWSE",
+              "published_at": "2026-10-20T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-travel-tourism",
+      "kind": "sector",
+      "title": "Travel/Tourism",
+      "tickers": [
+        "TCOM"
+      ],
+      "lede": "SAMR罰款RMB52.8億，企業差旅收入年增20%",
+      "sentiment": 0.4,
+      "stories": [
+        {
+          "id": "trip-com-65-q2-6-13xxprk",
+          "event_key": null,
+          "headline": "🧳 Trip.com國際業務爆發65%，Q2受罰款拖累增長僅6%",
+          "dek": "SAMR罰款RMB52.8億，企業差旅收入年增20%",
+          "body_md": "**國內 vs. 國際毛利**（用戶要求關注點）：\n- Q2營收RMB157億（年增6%，受SAMR罰款RMB52.8億影響）\n- Q1營收RMB162億（年增17%）\n- **國際平台預訂量年增65%**（強勁增長）\n\n**業務結構**：\n- 企業差旅收入RMB6.9億（年增20%）\n- 全球化 & AI為下階段增長引擎\n- 調整後EBITDA Q2 RMB48億 vs. Q1 RMB42億\n\n**⚠️ 數據缺口**：Futu API TCOM新聞極少（僅2則歷史數據），國際毛利率數據缺失（需補充財報細節）。",
+          "tickers": [
+            "TCOM"
+          ],
+          "sector": "Travel/Tourism",
+          "importance": 3,
+          "sentiment": 0.4,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Trip.com Q2 earnings: International bookings surge 65%",
+              "url": "https://ir.trip.com/",
+              "publisher": "Trip.com IR",
+              "published_at": "2026-10-25T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

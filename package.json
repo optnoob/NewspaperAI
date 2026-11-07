@@ -1,0 +1,14 @@
+{
+  "name": "newsgpt",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Compiles Hermes financial-news scrapes into a newspaper-style edition you can read.",
+  "scripts": {
+    "merge": "node merge.js",
+    "build": "node build.js",
+    "paper": "node merge.js && node build.js"
+  },
+  "devDependencies": {
+    "ajv": "^8.20.0"
+  }
+}

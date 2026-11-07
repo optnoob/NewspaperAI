@@ -1,0 +1,9 @@
+node_modules/
+.preview.png
+data/inbox/
+data/raw/
+*.env
+*.key
+*credential*
+*secret*
+.DS_Store
