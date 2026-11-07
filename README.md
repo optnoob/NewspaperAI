@@ -2,6 +2,14 @@
 
 An AI-powered financial news digest system that aggregates, analyzes, and presents market intelligence in a newspaper format.
 
+## 🌐 Try it!
+
+Daily editions are published using the `YYYY-MM-DD` date format:
+
+- **URL Pattern:** `https://optnoob.github.io/NewspaperAI/editions/YYYY-MM-DD/index.html`
+- **Sample Edition:** [2026-11-04 Edition](https://optnoob.github.io/NewspaperAI/editions/2026-11-04/index.html)
+- **Full Archive:** [Live Web Portal (`web/index.html`)](https://optnoob.github.io/NewspaperAI/web/index.html)
+
 ## Overview
 
 NewspaperAI transforms raw financial data feeds into structured, browsable news editions. Built on the NewsGPT architecture, it processes market data, news sources, and trading signals into coherent daily editions with visual web presentation.
