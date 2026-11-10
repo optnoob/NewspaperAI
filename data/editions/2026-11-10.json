@@ -1,0 +1,1076 @@
+{
+  "edition_date": "2026-11-10",
+  "generated_at": "2026-11-10T15:38:03.366Z",
+  "run_ids": [
+    "stock-watcher-20261110-cron",
+    "stock-watcher2-20261110-2129"
+  ],
+  "lead_story_id": "ai-q2-1210-2026-5210-1qbfypb",
+  "story_count": 24,
+  "sections": [
+    {
+      "id": "ticker-qqqm",
+      "kind": "ticker",
+      "title": "QQQM",
+      "tickers": [
+        "QQQM"
+      ],
+      "lede": "聯準會10月維持利率不變，市場預期12月再升息25bps至4.25%-4.50%，經濟衰退機率降至25%-30%",
+      "sentiment": 0.067,
+      "stories": [
+        {
+          "id": "fed-3-75-4-00-12-9-19lvbbk",
+          "event_key": null,
+          "headline": "🔴 Fed維持利率3.75%-4.00%，12月9日會議成關鍵",
+          "dek": "聯準會10月維持利率不變，市場預期12月再升息25bps至4.25%-4.50%，經濟衰退機率降至25%-30%",
+          "body_md": "**Fed政策現況：**\n- 10月FOMC維持利率在3.75%-4.00%（符合預期，2票要求升息）\n- 9月曾升息25bps（2023年來首次升息）\n- **下次會議：12月8-9日，結果公佈時間：東岸時間下午2:00**\n\n**市場預期：**\n- 多數機構預測12月升息25bps → 4.25%-4.50%\n- 2026年底預期利率約3%左右（Forbes/Oxford Economics）\n- 但區間波動大：2%-4%都有可能\n\n**經濟展望：**\n- **衰退機率：25%-30%**（U.S. Bank 25%，RSM 30%，較前次40%下降）\n- 實質GDP預測：Q3成長3.4%（年化），2026全年2.5%-3%\n- 通膨壓力持續，但就業市場穩健\n\n**對投資組合的影響：**\n- QQQM/SPYM：利率上升壓制估值，但科技股本益比已從高點回落19%\n- GDE（黃金ETF）：升息環境不利黃金，但央行持續購金支撐價格\n- 成長股/科技股承壓，但AI基礎建設需求強勁形成對沖\n\n來源：Trading Economics, FedRateCalc, CapitalMEG, Forbes, U.S. Bank, RSM",
+          "tickers": [
+            "QQQM",
+            "SPYM",
+            "GDE",
+            "IGV",
+            "ICE",
+            "NET",
+            "FUTU",
+            "ULS"
+          ],
+          "sector": "Macro Economics",
+          "importance": 5,
+          "sentiment": -0.3,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "United States Fed Funds Interest Rate",
+              "url": "https://tradingeconomics.com/united-states/interest-rate",
+              "publisher": "Trading Economics",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "Next Fed Meeting Dec 8–9: Countdown & FOMC Schedule 2027",
+              "url": "https://fedratecalc.com/fomc-meeting-schedule/",
+              "publisher": "FedRateCalc",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "Monthly Economic Outlook",
+              "url": "https://www.usbank.com/corporate-and-commercial-banking/insights/economy/outlook/monthly.html",
+              "publisher": "U.S. Bank",
+              "published_at": "2026-11-10T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "ai-q2-1210-2026-5210-1qbfypb",
+          "event_key": null,
+          "headline": "🟢 AI基建支出Q2達1210億美元，2026全年預估5210億",
+          "dek": "IDC上調2026年AI基建支出至5210億美元（年增63%），Hyperscaler吸收算力、企業加速AI量產、資料中心建設成型",
+          "body_md": "**AI基建支出爆發：**\n\n**Q2 2026數據（IDC）：**\n- 單季支出：$121 billion（1210億美元）\n- 年增：+56% → 加速至 +63%（上調預測）\n- **2026全年預測：$521 billion（5210億美元）**\n\n**成長驅動力：**\n\n**1. Hyperscaler（超大規模雲端廠商）：**\n- Google、Microsoft、AWS、Meta瘋狂搶算力\n- 資料中心容量吸收加速\n- GPU供應瓶頸推高價格\n\n**2. 企業AI量產：**\n- 大型企業從PoC（概念驗證）→ 生產級AI\n- AI應用從實驗室走向業務線\n- 私有雲AI基建投資激增\n\n**3. 資料中心建設成型：**\n- 選址與建設模式逐漸清晰\n- 電力成本與模型安全成焦點\n- **藍波浪潮（\"blue wave\"）持續席捲AI資料中心**\n\n**PwC全球預測：**\n- 資料中心資本支出：2026-2030累計 **$31.6 trillion（31.6兆美元）**\n- 地理分佈：2026年地圖將完全改寫\n- 區域：美洲、亞太、歐洲、中東、非洲（46國/地區）\n\n**受惠廠商（IDC報告）：**\n- 伺服器：Dell, HPE, 浪潮\n- 網路：Cisco, Arista, Juniper\n- GPU：NVIDIA（絕對主導）, AMD\n- 儲存：Pure Storage, NetApp\n\n**對投資組合的影響：**\n\n**QQQM/SPYM：**\n- ✅ NVIDIA、Microsoft、Google、Amazon受惠\n- ✅ 資料中心REITs、電力公司連帶受益\n\n**NET：**\n- ✅ 邊緣運算需求增加（Cloudflare Workers）\n- ✅ AI Gateway流量成長\n\n**IGV：**\n- ✅ 雲端基建SaaS（Snowflake, Datadog）需求強勁\n\n**關鍵爭議：**\n- **電力成本危機**：德州州長要求暫停資料中心建設（電網負荷）\n- **CoreWeave提議**：願支付電網連接成本\n- **Jensen Huang風波**：NVIDIA出貨神秘失蹤、資訊揭露訴訟\n\n來源：IDC, PwC, Bain, InfotechLead, Economic Times",
+          "tickers": [
+            "QQQM",
+            "SPYM",
+            "IGV",
+            "NET"
+          ],
+          "sector": "AI Infrastructure",
+          "importance": 5,
+          "sentiment": 0.7,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "AI Infrastructure Spending Jumps to $121 Billion in Q2 2026",
+              "url": "https://www.idc.com/resource-center/blog/ai-infrastructure-spending-jumps-to-121-billion-in-q2-2026/",
+              "publisher": "IDC",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "AI Data Center Forecast: From Scramble to Strategy",
+              "url": "https://www.bain.com/insights/ai-data-center-forecast-from-scramble-to-strategy-snap-chart/",
+              "publisher": "Bain & Company",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "Where $31.6 trillion of capex flows in the era-defining AI build-out",
+              "url": "https://www.pwc.com/gx/en/1/services/consulting/technology/data-centre-outlook.html",
+              "publisher": "PwC",
+              "published_at": "2026-11-10T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "ai-ylhadx",
+          "event_key": null,
+          "headline": "🔴 晶片短缺捲土重來：AI客戶擠爆代工廠產能",
+          "dek": "Microchip CEO指出AI買家佔滿供應商產能，後段封測、基板供應、落後製程產線短缺。記憶體短缺將持續至2027年",
+          "body_md": "**晶片短缺現況（2026年11月）：**\n\n**1. Microchip（11月5日警告）：**\n- CEO Steve Sanghi：「AI公司填滿供應商工廠，擠出其他客戶」\n- 短缺環節：\n  - **後段封測廠**（assembly & test houses）\n  - **基板供應**（substrate supply）\n  - **落後製程產線**（trailing-edge manufacturing）\n- 轉單其他供應商需時：約6個月\n\n**2. 記憶體晶片（DRAM/NAND）：**\n- Synopsys CEO Sassine Ghazi：「晶片緊缺將持續至2026和2027年」\n- DRAM/NAND價格飆升\n- AI資料中心搶購高頻寬記憶體（HBM）\n\n**3. 特殊元件短缺：**\n- MLCC（多層陶瓷電容）供應吃緊\n- SiC（碳化矽）功率元件短缺\n- Nexperia供應鏈危機\n\n**對投資組合的影響：**\n\n**QQQM/SPYM（科技股）：**\n- ✅ AI晶片廠商受惠：NVIDIA、AMD、台積電訂單滿載\n- ❌ 非AI客戶受害：車用、工控、消費電子缺晶片\n\n**IGV（軟體）：**\n- ❌ SaaS公司伺服器擴張受阻\n- ✅ 雲端廠商提價能力增強（供給受限）\n\n**台灣0050：**\n- ✅ 台積電受惠AI晶片需求\n- ❌ 其他科技股受供應鏈限制\n\n**供需時間表：**\n- 2026 H2：短缺持續惡化\n- 2027年：逐步緩解（新產能開出）\n- 2028年：供需平衡\n\n來源：24/7 Wall St., VersaLogic, NextPCB, CNBC, CompleteAITraining",
+          "tickers": [
+            "QQQM",
+            "SPYM",
+            "IGV"
+          ],
+          "sector": "Semiconductors",
+          "importance": 4,
+          "sentiment": -0.4,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "The Chip Shortage Is Back, and Microchip Says AI Customers Are Crowding Everyone Out",
+              "url": "https://247wallst.com/investing/2026/11/07/the-chip-shortage-is-back-and-microchip-says-ai-customers-are-crowding-everyone-out/",
+              "publisher": "24/7 Wall St.",
+              "published_at": "2026-11-07T00:00:00Z"
+            },
+            {
+              "title": "Memory chip shortage to last through 2027, semiconductor boss says",
+              "url": "https://www.cnbc.com/2026/01/26/memory-chip-shortage-synopsys-lenovo-ai-data-centers.html",
+              "publisher": "CNBC",
+              "published_at": "2026-01-26T00:00:00Z"
+            },
+            {
+              "title": "Shortage of Electronic Components in 2026: Causes and Sourcing Strategies",
+              "url": "https://www.nextpcb.com/blog/shortage-of-electronic-components-2026",
+              "publisher": "NextPCB",
+              "published_at": "2026-11-10T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "10-s-p-500-5-1yv8z2l",
+          "event_key": null,
+          "headline": "🟡 納斯達克估值跌至10年低點：僅比S&P 500貴5%",
+          "dek": "儘管遠期盈利增長14%，但估值倍數收縮19%。Nasdaq相對S&P 500溢價僅5%，為2017年來最低（十年均值20%）",
+          "body_md": "**估值壓縮現象：**\n- 自6月以來，Nasdaq遠期盈利成長14%\n- 但本益比倍數收縮19%（利率預期上升）\n- **相對S&P 500溢價：僅5%**（十年平均20%，2017年1月來最低）\n\n**市場表現（11月初）：**\n- 11月5日：S&P 500 +0.31% → 7,376.86\n- Nasdaq +1.09% → 24,579.42（前一日創18個月最大跌幅後反彈）\n- Dow -0.46% → 51,285.73\n- 11月9日：S&P 500 +2.35% → 7,549.94，Nasdaq 100 +3.40%\n\n**投資啟示：**\n- QQQM估值回到合理區間，長期配置機會浮現\n- 但短期仍受Fed升息週期壓制\n- 科技股波動加劇，VIX大幅跳升（1990年來第三大單日漲幅）\n\n**QQQM特定消息：**\n- $224K看跌Long Put被開倉（10月底，bearish信號）\n- AI評級給予「Outperform」，上漲空間至少13%\n- 相較QQQ，QQQM費用率更低，適合長期持有\n\n來源：Citadel Securities, CNBC, Saxo Bank, TipRanks, Futu",
+          "tickers": [
+            "QQQM",
+            "SPYM"
+          ],
+          "sector": "ETF/Index",
+          "importance": 4,
+          "sentiment": 0.2,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "November: The Setup Improves",
+              "url": "https://www.citadelsecurities.com/news-and-insights/global-market-intelligence/november-the-setup-improves/",
+              "publisher": "Citadel Securities",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "Nasdaq rebounds 1% following worst session in 18 months",
+              "url": "https://www.cnbc.com/2026/11/05/stock-market-today-live-updates.html",
+              "publisher": "CNBC",
+              "published_at": "2026-11-05T00:00:00Z"
+            },
+            {
+              "title": "Options Whale Alert: $224K Bearish Long Put Opened on QQQM",
+              "url": "https://news.futunn.com/en/post/1002981915",
+              "publisher": "Futu",
+              "published_at": "2026-10-30T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-semiconductors",
+      "kind": "sector",
+      "title": "Semiconductors",
+      "tickers": [
+        "NVDA",
+        "AMD",
+        "INTC",
+        "TSM",
+        "AVGO",
+        "DRAM"
+      ],
+      "lede": "11/5全球AI與晶片股崩盤、分析師憂資料中心建設2027見頂、S&P 500單日跌4.4%、市場蒸發$2.5兆美元",
+      "sentiment": -0.3,
+      "stories": [
+        {
+          "id": "ai-12-2-nasdaq-558k0v",
+          "event_key": null,
+          "headline": "🔴 AI泡沫破裂？半導體指數單日暴跌12.2%，Nasdaq進入修正區",
+          "dek": "11/5全球AI與晶片股崩盤、分析師憂資料中心建設2027見頂、S&P 500單日跌4.4%、市場蒸發$2.5兆美元",
+          "body_md": "**11/5黑色星期四**\n\n費城半導體指數（SOX）單日暴跌 **12.2%**，創疫情以來最大跌幅。Nasdaq綜合指數跌5.52%，較10月高點回落超10%，正式進入**技術性修正區**。\n\n**引爆點**\n- 分析師警告：AI資料中心建設熱潮可能在**2027年見頂**（原預期本decade後期）\n- 半導體股作為AI基建核心受益者，率先崩潰\n- S&P 500單日跌4.4%，市值蒸發約$2.5兆\n\n**市場情緒轉折**\n- BofA分析師Hartnett：期中選舉標誌「AI見頂」，華爾街牛市信念逐一崩解\n- 投資人從AI/科技股撤退，轉向防禦性板塊\n\n**11/6-11/8反彈乏力**\n- 週五半導體指數回升約5%，但未收復失地\n- 市場仍在等待更清晰方向信號\n\n**機構觀點分歧**\n- **CLSA**: 視為牛市修正，建議聚焦高品質與高股息股\n- **Ark Invest CEO Cathie Wood**: 越多人擔心AI泡沫，我越有信心牛市持續\n- **摩根大通**: 當前最大風險是「沒有配置這項變革性技術」\n\n**與總經環境交互**\n- Fed 10/27-28會議維持利率3.75%-4%不變（10:2投票，Cook與Hammack主張升息）\n- 通膨仍高（PPI YoY+6.3%，預期5.3%）\n- 11/10 CPI數據將決定12月FOMC是否升息\n\n---\n\n**衝擊範圍**: 不僅晶片股，整體科技板塊與AI相關基建公司均受波及",
+          "tickers": [
+            "NVDA",
+            "AMD",
+            "INTC",
+            "TSM",
+            "AVGO"
+          ],
+          "sector": "Semiconductors",
+          "importance": 5,
+          "sentiment": -0.8,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Did the AI bubble just burst? Semiconductor index sees worst sell-off since Covid",
+              "url": "https://www.fxstreet.com/news/did-the-ai-bubble-just-burst-semiconductor-index-sees-worst-sell-off-since-covid-202611051926",
+              "publisher": "FXStreet",
+              "published_at": "2026-11-05T19:26:00Z"
+            },
+            {
+              "title": "Stock markets plunge as massive tech sell-off wipes $2.5 trillion",
+              "url": "https://www.cnn.com/2026/11/05/investing/tech-heavy-nasdaq-plunges",
+              "publisher": "CNN Business",
+              "published_at": "2026-11-05T00:00:00Z"
+            },
+            {
+              "title": "The Bubble Wrote Its Own Trigger",
+              "url": "https://dataaicontinuum.substack.com/p/the-bubble-wrote-its-own-trigger",
+              "publisher": "Data-AI Continuum",
+              "published_at": "2026-11-06T00:00:00Z"
+            },
+            {
+              "title": "BofA's Hartnett: Midterm elections mark 'peak AI,' as Wall Street's 'bull market convictions crumble one by one'",
+              "url": "https://news.futunn.com/en/post/1003832506",
+              "publisher": "Futu",
+              "published_at": "2026-11-07T10:15:42Z"
+            }
+          ]
+        },
+        {
+          "id": "nvda-jensen-huang-l4k1im",
+          "event_key": null,
+          "headline": "🔴 NVDA — Jensen Huang醜聞引爆國會調查，投行集體砍目標價",
+          "dek": "CEO認婚外情涉中國間諜、Citi降目標價至$285、Mizuho砍至$250、Morningstar警告離職風險衝擊AI融資",
+          "body_md": "**危機全面爆發**\n\nNVIDIA CEO Jensen Huang 11/8承認婚外情，董事會啟動調查其與疑似中國情報資產的關係。國會外交委員會11/4去信要求Huang出席閉門簡報，說明公司防諜協議。\n\n**投行降評連環砲**\n- **Citi**: 目標價 $370 → $285（-23%）\n- **Mizuho**: $315 → $250（-21%）\n- **Wells Fargo**: $315 → $300，維持Overweight\n\n**業務衝擊分析**\n- Morningstar警告：Huang若離職，恐拖累AI交易與融資活動\n- Anthropic IPO撤回同日，洩漏$69.3B融資細節（NVDA、MSFT、Google、TSM等合計投資$26B）\n- 集體股東訴訟已啟動\n\n**市場情緒**\n- 分析師認為Huang不太可能下台（歷史先例：個人醜聞 ≠ 董事會撤換）\n- 博彩市場賠率顯示低機率移除\n\n**Jensen近期言論爭議**\n- 2025/11曾對FT表示「中國將贏得AI競賽」\n- 公開稱美國對華晶片禁運是「錯誤」、「他們不是敵人」\n\n**訂單動態**\n- SpaceX簽約Anthropic，採購價值最高$120.5B的NVIDIA GPU算力\n- Google、NVIDIA等7家公司承諾向Anthropic投資$26B\n\n---\n\n**股價表現**: 11/9逆市下跌，延續近期弱勢；AI泡沫疑慮加劇投資人避險情緒",
+          "tickers": [
+            "NVDA"
+          ],
+          "sector": "Semiconductors",
+          "importance": 5,
+          "sentiment": -0.9,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Multiple major banks lower NVIDIA's target price",
+              "url": "https://news.futunn.com/en/flash/1004039825",
+              "publisher": "Futu",
+              "published_at": "2026-11-10T14:04:32Z"
+            },
+            {
+              "title": "Today's Analyst Rating | Citi Cuts Its Price Target Cut on NVIDIA to $285",
+              "url": "https://news.futunn.com/en/post/1004037014",
+              "publisher": "Futu",
+              "published_at": "2026-11-10T14:00:01Z"
+            },
+            {
+              "title": "Rep. Moolenaar Speaks to CNBC on Congressional Investigation Into Nvidia CEO Huang's Affair With Alleged Chinese Spy",
+              "url": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+              "publisher": "CNBC",
+              "published_at": "2026-11-10T13:55:38Z"
+            },
+            {
+              "title": "Morningstar warns: Jensen Huang's potential departure from NVIDIA could weigh on AI trading and financing activities",
+              "url": "https://news.futunn.com/en/post/1004033752",
+              "publisher": "Futu",
+              "published_at": "2026-11-10T12:48:28Z"
+            },
+            {
+              "title": "Read the Memo Jensen Huang Sent to Nvidia Employees",
+              "url": "https://www.nytimes.com/interactive/2026/11/09/business/nvidia-huang-email-memo.html",
+              "publisher": "The New York Times",
+              "published_at": "2026-11-09T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "tsm-10-60-40-9b-3d-dram-1x35b6v",
+          "event_key": null,
+          "headline": "🟢 TSM — 10月營收暴增60%，批准$40.9B資本支出進軍3D DRAM",
+          "dek": "10月營收NT$586.89B創新高、Q4增速預估上看63%、考慮應NVIDIA要求進入先進記憶體晶片市場",
+          "body_md": "**營收動能強勁**\n\n台積電10月營收 **NT$586.89B**（約$18.4B），較去年同期激增 **59.7%**，較9月成長14.7%，再創單月新高。\n\n分析師預估Q4營收增速將進一步攀升至 **63%**。\n\n**戰略擴張決策**\n\n11/10董事會批准 **$40.9B** 長期產能擴張資本預算，用於：\n- 先進製程產線（3nm/2nm）\n- **首次進入記憶體晶片市場**：應NVIDIA要求，考慮生產3D DRAM特殊先進晶片\n\n**與記憶體大廠競爭**\n\n若成真，將與Samsung、SK Hynix、Micron正面對決。TSM切入點：\n- 3D DRAM技術（打破記憶體瓶頸）\n- 與NVIDIA深度綁定（Jensen Huang多次訪台、長期合約）\n\n**產能爭奪戰**\n\n全球AI基建競賽下，NVIDIA、Apple、AMD、Broadcom激烈爭搶TSM產能：\n- 先進封裝產能供不應求\n- 客戶提前數年簽訂客製化協議\n- 2026年TSM股價已漲近40%（vs 費城半導體指數+60%）\n\n**對手動態**\n\n- **Intel Foundry**: 試圖追趕，但財務壓力大、技術差距仍存在\n- **Samsung Foundry**: 加碼EUV設備投資、單筆採購接近KRW 1兆（約$750M）\n\n**Anthropic洩密事件**\n\nAnthropicIPO檔案意外洩露$69.3B融資細節，TSM亦為投資方之一（與NVIDIA、MSFT、Google等並列）。\n\n---\n\n**2026展望**: 資本支出$60-64B，AI需求持續推動營收增長",
+          "tickers": [
+            "TSM",
+            "DRAM"
+          ],
+          "sector": "Semiconductors",
+          "importance": 5,
+          "sentiment": 0.8,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Taiwan Semiconductor Approves $40.9 Billion Capital Budget for Long-Term Capacity Expansion",
+              "url": "https://news.futunn.com/en/flash/1004029887",
+              "publisher": "Futu",
+              "published_at": "2026-11-10T12:52:33Z"
+            },
+            {
+              "title": "Taiwan Semiconductor (TSM.US) sees October revenue surge 60%: Strong AI demand persists",
+              "url": "https://news.futunn.com/en/post/1003986324",
+              "publisher": "Futu",
+              "published_at": "2026-11-10T05:03:38Z"
+            },
+            {
+              "title": "Rumors say Taiwan Semiconductor is considering producing 3D DRAM, a special advanced chip, at NVIDIA's request",
+              "url": "https://news.futunn.com/en/post/1003837483",
+              "publisher": "Futu",
+              "published_at": "2026-11-07T13:00:00Z"
+            },
+            {
+              "title": "Taiwan Semiconductor Holds the Cards As NVIDIA, Apple and AMD Battle for Limited AI Chip Capacity",
+              "url": "https://www.benzinga.com/markets/tech/26/10/62404541/taiwan-semiconductor-holds-the-cards-as-nvidia-apple-and-amd-battle-for-limited-ai-chip-capacity",
+              "publisher": "Benzinga",
+              "published_at": "2026-10-15T00:00:00Z"
+            },
+            {
+              "title": "Memory Chip Duopoly Competes for EUV Lithography Machines to Support Advanced DRAM Capacity Expansion",
+              "url": "https://news.futunn.com/en/post/1003954367",
+              "publisher": "Futu",
+              "published_at": "2026-11-09T14:16:00Z"
+            },
+            {
+              "title": "Musk's Terafab target revealed: aiming for monthly production of 700,000 storage-chip wafers",
+              "url": "https://news.futunn.com/en/post/1003855324",
+              "publisher": "Futu",
+              "published_at": "2026-11-08T13:50:00Z"
+            },
+            {
+              "title": "Counterpoint: Global DRAM Revenue Surges 369% in Q3; Samsung's Market Share Rises to 38%",
+              "url": "https://news.futunn.com/en/post/1003679287",
+              "publisher": "Futu",
+              "published_at": "2026-11-06T09:26:59Z"
+            },
+            {
+              "title": "$7 Billion Gone: DRAM ETF Investors Crushed As Memory Chip Mania Unravels",
+              "url": "https://news.futunn.com/en/post/1003736404",
+              "publisher": "Futu",
+              "published_at": "2026-11-06T00:21:17Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-fintech",
+      "kind": "sector",
+      "title": "FinTech",
+      "tickers": [
+        "FUTU",
+        "ICE",
+        "BULL",
+        "MEME"
+      ],
+      "lede": "富途Q2交易量年增79%達6.42兆港元，美股交易5.02兆（AI股熱潮），香港市場1.17兆。加密貨幣業務擴張美港兩地",
+      "sentiment": 0.418,
+      "stories": [
+        {
+          "id": "futu-q2-6-42-bckdoj",
+          "event_key": null,
+          "headline": "🟢 FUTU Q2交易量破紀錄6.42兆港元，海外拓展加速",
+          "dek": "富途Q2交易量年增79%達6.42兆港元，美股交易5.02兆（AI股熱潮），香港市場1.17兆。加密貨幣業務擴張美港兩地",
+          "body_md": "**富途Q2 2026業績亮點：**\n- **總交易量：6.42兆港元**\n  - 年增：+78.8%\n  - 季增：+54.6%\n  - 創歷史新高\n\n**分市場交易量：**\n\n**美股：5.02兆港元**\n- 季增：+67.2%\n- 驅動力：散戶瘋狂湧入半導體、AI相關股票\n- 熱門標的：NVIDIA、台積電、AI概念股\n\n**港股：1.17兆港元**\n- 季增：+15.9%\n- 驅動力：半導體、中國互聯網、新上市公司\n- IPO市場活躍\n\n**營收：年增36%**\n- 佣金收入大幅增長\n- 利息收入受惠客戶資產增加\n\n**海外市場拓展：**\n\n**1. 加密貨幣業務**\n- **美國**：推出加密交易服務，支援30+幣種（BTC、ETH等）\n- **香港**：推出BTC、ETH、USDT存款服務（2026年5月）\n- 戰略：搶佔年輕投資者、加密原生用戶\n\n**2. 新加坡市場**\n- 持續深耕東南亞\n- 監管合規佈局\n\n**3. ARK Invest合作**\n- 引入ARK創新投資策略至香港市場\n- 提升機構級產品線\n\n**關鍵觀察點：**\n1. **Q3交易量是否維持**：AI熱潮降溫後用戶活躍度\n2. **客戶資產留存率**：市場波動下資金流出風險\n3. **監管環境**：香港/新加坡/美國合規成本\n4. **競爭加劇**：Tiger、Interactive Brokers搶市佔\n\n**⚠️ 注意：FUTU搜尋結果混雜**\nFutu API搜尋\"FUTU\"主要返回**「富途早報」（Futu Morning Brief）宏觀新聞彙編**，而非富途控股公司本身的營運新聞。需搜尋\"Futu Holdings\"才能取得公司業績、交易量等資訊。\n\n**Q3財報預告：**\n- 預計2026年11月中下旬公佈（未審計）\n\n來源：TradingKey, Yahoo Finance, StockAnalysis, Futu Holdings, Futu Q2 Earnings Call",
+          "tickers": [
+            "FUTU"
+          ],
+          "sector": "FinTech",
+          "importance": 4,
+          "sentiment": 0.7,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Futu Holdings (FUTU) Q2 2026 Earnings Call: Revenue Up 36%, Trading Volume Hits Record",
+              "url": "https://www.tradingkey.com/news/transcripts/262122114-tradingkey",
+              "publisher": "TradingKey",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "Futu Holdings Ltd (FUTU) (Q2 2026) Earnings Call Highlights: Record Trading Volume",
+              "url": "https://finance.yahoo.com/markets/stocks/articles/futu-holdings-ltd-futu-q2-190304420.html",
+              "publisher": "Yahoo Finance",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "About Us | FUTU | Futu Holdings Limited",
+              "url": "https://www.futuholdings.com/en-us/milestone",
+              "publisher": "Futu Holdings",
+              "published_at": "2026-11-10T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "ice-polymarket-18-90-r62uy3",
+          "event_key": null,
+          "headline": "🟡 ICE押注Polymarket 18億美元，預測市場估值90億",
+          "dek": "洲際交易所累計投資Polymarket約18億美元（含OKX等加密預測平台），Polymarket估值2026年2月達90億，年交易量預估2400億",
+          "body_md": "**ICE投資Polymarket時間線：**\n- 2025年10月：首輪投資20億美元，Polymarket估值80億\n- 2026年2月：估值升至90億美元\n- 2026年最新：ICE再投資6億美元，並向現有股東購買4000萬證券\n- **累計曝險：約18億美元**（含Polymarket、OKX、其他加密預測市場）\n\n**Polymarket業務數據：**\n- 成立：2020年（創辦人Shayne Coplan）\n- 2026年3月交易量：257億美元\n- **Bernstein預測：2026全年交易量2400億美元**\n- 模式：用戶透過智能合約點對點交易事件結果股份\n- 類別：時事、政治、商業、文化、運動\n\n**對ICE的戰略意義：**\n- 拓展加密貨幣/預測市場版圖\n- 與CME、Cboe、Robinhood競爭加密交易\n- 年輕用戶獲取（Polymarket用戶全球化）\n\n**關鍵觀察點：**\n1. **監管風險**：預測市場合規性（美國CFTC監管）\n2. **交易量波動**：選舉年後流量是否持續\n3. **盈利模式**：Polymarket如何變現巨大流量\n\n**ICE本業表現（2026年11月7日）：**\n- Polymarket持股表現良好，帶動ICE股價\n- 交易所業務穩健，數據服務成長\n\n來源：Torre Financial, TradingKey, ICE IR, Wikipedia",
+          "tickers": [
+            "ICE"
+          ],
+          "sector": "FinTech",
+          "importance": 3,
+          "sentiment": 0.4,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Market, Earnings, and Intercontinental Exchange (ICE) - November 7, 2026",
+              "url": "https://torrefinancial.substack.com/p/market-earnings-and-intercontinental-450",
+              "publisher": "Torre Financial",
+              "published_at": "2026-11-07T00:00:00Z"
+            },
+            {
+              "title": "Polymarket Raises $400 Million After ICE Backing",
+              "url": "https://www.tradingkey.com/analysis/cryptocurrencies/more/261801030-crypto-polymarket-ice-prediction-predict-forecast-cme-cboe-robinhood-tradingkey",
+              "publisher": "TradingKey",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "Intercontinental Exchange Announces New $600 Million Investment in Polymarket",
+              "url": "https://ir.theice.com/press/news-details/2026/Intercontinental-Exchange-Announces-New-600-Million-Investment-in-Polymarket/default.aspx",
+              "publisher": "ICE",
+              "published_at": "2026-11-10T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "bull-etf-anthropic-1-7t-unity-ai-17nvolx",
+          "event_key": null,
+          "headline": "⚠️ BULL（槓桿多頭ETF）— Anthropic估值$1.7T、Unity收購傳聞、AI牛熊辯論未解",
+          "dek": "Morningstar給Anthropic牛市情境$3T估值、Morgan Stanley看好Unity「牛市理由」、中期選舉後AI信念動搖",
+          "body_md": "**搜尋結果偏差**\n\nFutu搜尋「BULL」返回大量含「bull market」、「bullish」等詞彙的新聞，而非單一ticker BULL ETF。以下整理相關牛市/看漲主題：\n\n**Anthropic估值爭議**\n\n- **Morningstar公允價值**: $1.7T\n- **牛市情境**: 高達 **$3T**\n- IPO檔案撤回後洩漏$69.3B融資細節，引發市場狂熱\n\n**Unity收購傳聞**\n\n摩根大通維持Overweight評級：\n- Q3財報強化「牛市理由」\n- $25B收購傳聞成為「call option」（潛在暴利）\n\n**AI牛熊拉鋸**\n\n- **牛派**（Ark Invest CEO）: 市場擔憂越多 = 牛市信號越強\n- **熊派**（BofA Hartnett）: 期中選舉標誌「peak AI」，牛市信念逐一崩潰\n- **中性派**（CLSA）: 視為牛市修正，非趨勢反轉\n\n**2027展望**\n\nChina Securities黃文濤：2027中國資本市場將迎「股債匯三牛」。\n\n**零售股分歧**\n\n摩根大通對四大美國零售股維持Overweight：本季財報不太可能解決牛熊爭議，「平庸」結果可能提供戰略入場點。\n\n---\n\n**增長情況**: 無法直接定位BULL ticker數據，但牛市主題在AI/科技板塊仍有強力支持者",
+          "tickers": [
+            "BULL"
+          ],
+          "sector": "FinTech",
+          "importance": 2,
+          "sentiment": 0.3,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Morningstar: Anthropic's Fair Value Estimated at $1.7 Trillion; 'Bull Case' Valuation Reaches $3 Trillion",
+              "url": "https://news.futunn.com/en/post/1003973963",
+              "publisher": "Futu",
+              "published_at": "2026-11-10T02:26:55Z"
+            },
+            {
+              "title": "Morgan Stanley maintains its 'Overweight' rating on Unity: Q3 results reinforce the bull case",
+              "url": "https://news.futunn.com/en/post/1003967560",
+              "publisher": "Futu",
+              "published_at": "2026-11-09T19:11:00Z"
+            },
+            {
+              "title": "While others panic, she remains calm! 'Ark Invest's CEO': The more the market worries about an AI bubble, the more confident I am in the bull market",
+              "url": "https://news.futunn.com/en/post/1003877681",
+              "publisher": "Futu",
+              "published_at": "2026-11-08T08:27:54Z"
+            }
+          ]
+        },
+        {
+          "id": "meme-meme-etf-25-daq23v",
+          "event_key": null,
+          "headline": "⚠️ MEME（Meme股ETF）— 持倉應對輿情調整、25檔成分股波動性加權",
+          "dek": "Roundhill Meme ETF追蹤社交媒體熱門股、13-25檔動態調整、Applied Opto/CoreWeave/Credo為前三大持倉",
+          "body_md": "**ETF策略**\n\nRoundhill Meme Stock ETF（MEME）是全球唯一針對meme股的ETF：\n- 持倉：**22-25檔**（不同資料來源略有差異）\n- 加權方式：**隱含波動率**（從期權市場價格推導）\n- 選股邏輯：社交媒體討論度、極端流動性、價格劇烈波動\n\n**前三大持倉**（依MarketBeat 2026資料）\n\n1. **Applied Optoelectronics**\n2. **CoreWeave**\n3. **Credo Technology Group**\n\n其他成分股涵蓋：資訊科技、工業、材料等板塊。\n\n**近期調整**\n\nMEME不定期重新平衡，以反映meme股輿情變化：\n- Dogecoin、Shiba Inu幣價下滑，Pepe飆漲33%\n- GameStop成長潛力爭議（真實vs.泡沫）\n- Trump關聯meme幣因期中選舉慘敗暴跌99%\n\n**規模與費用**\n\n- AUM：**$16.5M**（相對小型ETF）\n- 費用率：**0.69%**\n\n**Meme幣趨勢**\n\n加密meme幣與Meme股ETF有間接關聯：\n- Robinhood推出Meme-Perps（meme幣永續合約）\n- GTA 6預告片出現meme幣，Solana copycat飆漲2,900%\n\n**風險提示**\n\n- 極高波動性（單日±10%以上常見）\n- 基本面分析失效（社交媒體驅動 > 財務數據）\n- 監管不確定性\n\n---\n\n**持倉align輿情**: ETF定期調倉追蹤Reddit/Twitter熱度，但個股生命週期短，長期持有風險極高",
+          "tickers": [
+            "MEME"
+          ],
+          "sector": "FinTech",
+          "importance": 2,
+          "sentiment": 0,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "MEME Holdings: All 21 Stocks in Roundhill Meme Stock ETF (2026)",
+              "url": "https://www.tipranks.com/etf/meme/holdings",
+              "publisher": "TipRanks",
+              "published_at": "2026-11-01T00:00:00Z"
+            },
+            {
+              "title": "MEME Top Holdings List & Exposure (Roundhill Meme Stock ETF)",
+              "url": "https://www.marketbeat.com/stocks/NYSEARCA/MEME/holdings/",
+              "publisher": "MarketBeat",
+              "published_at": "2026-11-01T00:00:00Z"
+            },
+            {
+              "title": "Dogecoin, Shiba Inu Slide as Pepe Surges 33%: Are Meme Coins 'Over'?",
+              "url": "https://news.futunn.com/en/post/1003921528",
+              "publisher": "Futu",
+              "published_at": "2026-11-09T12:50:07Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-software",
+      "kind": "sector",
+      "title": "Software",
+      "tickers": [
+        "GOOG",
+        "GOOGL",
+        "IGV"
+      ],
+      "lede": "CEO Pichai宣布達成「半兆美元營收run rate」、Google Cloud營收倍增至$31B、淨利潤跌25%至$26.2B因投資重估",
+      "sentiment": 0.2,
+      "stories": [
+        {
+          "id": "goog-q3-510b-25-y4kqih",
+          "event_key": null,
+          "headline": "🟢 GOOG — Q3營收衝上$510B年化、雲端翻倍增長，但獲利大跌25%",
+          "dek": "CEO Pichai宣布達成「半兆美元營收run rate」、Google Cloud營收倍增至$31B、淨利潤跌25%至$26.2B因投資重估",
+          "body_md": "**營收突破性成長**\n\nAlphabet Q3營收 **$127.6B**（YoY +25%），年化營收達 **$510B** 水準，CEO Sundar Pichai稱「強勁季度」。\n\n**營收細項**\n- **Google Services**: $96.3B（+11%）\n  - 搜尋廣告：$63.35B（+12%，略低於預期$64.96B）\n- **Google Cloud**: 營收倍增至約 **$31B** 年化（Q3單季數據推算）\n  - Pichai強調Cloud與TPU系統將作為廣泛平台提供，包括競爭對手\n\n**獲利大跌原因**\n\n淨利潤降至 **$26.2B**（-25% YoY），遠低於預期，主因：\n- AI基建投資猛增（明年將加碼）\n- 投資組合價值重估虧損\n- 自由現金流轉負（Cloud重資本支出）\n\n**市值蒸發$500B**\n\n財報公布後股價暴跌，市值單日蒸發約$500B，投資人對「燒錢換增長」策略存疑。\n\n**戰略動向**\n\n- **債券發行**: 考慮11月發行港幣與新加坡幣計價債券\n- **持股異動**: 揭露持有約300萬股Qualcomm、退出GitLab/Spero/Autolus投資\n- **資料中心**: 宣布在懷俄明州投資$17B建設資料中心\n- **無人車**: Waymo面臨美國審查（校車召回修復方案）\n- **無人機**: Wing部門將投資最高$125M在德州建製造設施\n\n**分析師觀點**\n\n- **Arete**: 目標價 $450 → $370\n- **Bernstein**: 維持Hold、目標價$325\n\n**AI影響爭議**\n\n- Pichai稱AI投資驅動過去5年最高查詢增速\n- 但搜尋廣告營收未達預期，市場懷疑AI是否侵蝕核心業務\n\n---\n\n**CEO展望**: Pichai強調full-stack方法推動全業務動能，但未提供明確獲利復甦時間表",
+          "tickers": [
+            "GOOG",
+            "GOOGL"
+          ],
+          "sector": "Software",
+          "importance": 4,
+          "sentiment": -0.2,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Alphabet's Revenue Rises 25% as Profit Falls",
+              "url": "https://www.nytimes.com/2026/10/28/technology/alphabet-earnings-google-ai.html",
+              "publisher": "The New York Times",
+              "published_at": "2026-10-28T00:00:00Z"
+            },
+            {
+              "title": "Google owner Alphabet loses $500bn in market value after profit disappoints Wall Street",
+              "url": "https://www.theguardian.com/technology/2026/oct/28/google-alphabet-q3-earnings-report",
+              "publisher": "The Guardian",
+              "published_at": "2026-10-28T00:00:00Z"
+            },
+            {
+              "title": "Alphabet Announces Third Quarter 2026 Results",
+              "url": "https://s206.q4cdn.com/479360582/files/doc_financials/2026/q3/2026q3-alphabet-earnings-release.pdf",
+              "publisher": "Alphabet IR",
+              "published_at": "2026-10-28T00:00:00Z"
+            },
+            {
+              "title": "Alphabet (GOOGL) earnings Q3 2026",
+              "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+              "publisher": "CNBC",
+              "published_at": "2026-10-28T00:00:00Z"
+            }
+          ]
+        },
+        {
+          "id": "igv-etf-17-saas-15vpfk5",
+          "event_key": null,
+          "headline": "🟢 IGV軟體ETF反彈17%，SaaS寒冬結束",
+          "dek": "iShares Software ETF Q3反彈17%，距2025年9月高點僅7%。AI威脅擔憂緩解，Oracle/Microsoft/Palantir推動成長",
+          "body_md": "**IGV表現：**\n- Q3 2026反彈：+17%\n- 距2025年9月高點：僅-7%\n- 今日盤前：+1.42%\n- 資產規模：超$140億美元，流動性充足\n\n**產業趨勢：SaaS寒冬終結**\n- AI顛覆擔憂緩解，軟體股重新估值\n- 開發者平台需求回升\n- 企業軟體支出復甦\n\n**成分股動態（11月4日調整）：**\n- **加入：Oracle（ORCL）**\n- **減持：Microsoft（權重下調）**\n- Oracle面臨AI基建支出壓力、客戶集中度疑慮\n- Palantir商業成長加速\n- Microsoft持續擴張Azure容量\n\n**關鍵觀察點：**\n1. **SaaS使用者趨勢**：企業軟體採用率回升\n2. **AI整合**：傳統SaaS廠商整合生成式AI功能\n3. **定價權**：軟體公司恢復定價能力\n4. **客戶留存率**：流失率下降，NRR（淨收入留存率）改善\n\n**風險因素：**\n- AI原生競爭者威脅傳統SaaS\n- 經濟放緩影響企業IT支出\n- 估值仍處歷史高位\n\n來源：StocksBNB, Yahoo Finance, Inkl, iShares",
+          "tickers": [
+            "IGV"
+          ],
+          "sector": "Software",
+          "importance": 4,
+          "sentiment": 0.6,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Software Quarterly Update 2Q26 – End of the SaaSpocalypse",
+              "url": "https://www.stocksbnb.com/reports/software-quarterly-update-2q26-end-of-the-saaspocalypse/",
+              "publisher": "StocksBNB",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "iShares Expanded Tech-Software (IGV) Adds Oracle, Trims Microsoft on Nov. 4",
+              "url": "https://uk.finance.yahoo.com/news/ishares-expanded-tech-software-igv-110607892.html",
+              "publisher": "Yahoo Finance",
+              "published_at": "2026-11-04T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-automotive",
+      "kind": "sector",
+      "title": "Automotive",
+      "tickers": [
+        "TSLA"
+      ],
+      "lede": "銷量3年暴跌48%後正式終結、產線讓位給Cybercab與Optimus、Robotaxi進駐聖安東尼奧、Model S/X已讓地給機器人",
+      "sentiment": -0.4,
+      "stories": [
+        {
+          "id": "tsla-cybertruck-musk-robotaxi-1e1vz87",
+          "event_key": null,
+          "headline": "⚠️ TSLA — Cybertruck宣告停產，Musk押寶Robotaxi與人形機器人",
+          "dek": "銷量3年暴跌48%後正式終結、產線讓位給Cybercab與Optimus、Robotaxi進駐聖安東尼奧、Model S/X已讓地給機器人",
+          "body_md": "**Cybertruck終章**\n\nTesla宣布將逐步**結束Cybertruck生產**，距離2023年底首批交車僅約3.5年：\n- 2024銷量：20,237輛（-48% YoY）\n- 2026前9月：約16,000輛（-38%）\n- 遠低於Musk早期250,000輛/年預測\n\n11/5再度漲價，訂單率「遠超」產能，但Musk選擇關閉產線為Cybercab讓路。\n\n**戰略轉向Robotaxi**\n\n德州工廠Cybercab產線產能：**125,000輛/年**（與Cybertruck產線相當）：\n- 目標：2026年底開始向客戶銷售（待監管批准）\n- Robotaxi服務11月進入聖安東尼奧（繼舊金山、洛杉磯後）\n- Musk稱此為「自動駕駛未來」核心\n\n**人形機器人Optimus**\n\nCalifornia工廠Model S/X產線已讓位給Optimus：\n- 目標：首條產線最終年產 **100萬台機器人**\n\n**中國市場困境**\n\n10月中國零售銷量跌至 **2022年7月以來新低**：\n- 出口占比創新高（59,012輛出口 vs 極低國內銷量）\n- 中國NEV市場占有率：BYD 22.4%領先，**Tesla跌出前10**\n\n**SpaceX-Tesla合併傳聞**\n\nJefferies分析：\n- 戰略理由不變，但監管障礙增加\n- 目標價降至 **$375**\n\n**產能閒置風險vs.機會成本**\n\nMusk辯稱：Cybertruck「機會成本」遠低於Cybercab/Optimus潛力，但分析師質疑：\n- 產能切換期收入空窗\n- Robotaxi商業化時程不確定\n- Cybertruck訂單退款將退還大量訂金\n\n---\n\n**市場反應**: 11/9股價上漲5%（Robotaxi利多），但長期投資人對Musk頻繁轉向策略感到疲乏",
+          "tickers": [
+            "TSLA"
+          ],
+          "sector": "Automotive",
+          "importance": 4,
+          "sentiment": -0.4,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Why Tesla is ending Cybertruck production and what comes next",
+              "url": "https://www.usatoday.com/story/cars/shopping/evs/2026/11/06/tesla-cybertruck-production-ending/92639472007/",
+              "publisher": "USA Today",
+              "published_at": "2026-11-06T00:00:00Z"
+            },
+            {
+              "title": "Elon Musk Is Winding Down Cybertruck Production to Build Cybercabs",
+              "url": "https://www.fool.com/investing/2026/11/07/elon-musk-is-winding-down-cybertruck-production-to-build-cybercabs-the-model-s-and-model-x-already-gave-up-their-factory-space-to-robots/",
+              "publisher": "The Motley Fool",
+              "published_at": "2026-11-07T00:00:00Z"
+            },
+            {
+              "title": "Tesla Retail Sales in China Fall to Lowest Since July 2022 as Export Share Hits Record",
+              "url": "https://news.futunn.com/en/post/1003850895",
+              "publisher": "Futu",
+              "published_at": "2026-11-08T09:16:30Z"
+            },
+            {
+              "title": "Jefferies: Lowered Tesla's target price to $375",
+              "url": "https://news.futunn.com/en/post/1003978629",
+              "publisher": "Futu",
+              "published_at": "2026-11-10T03:54:37Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-certification-testing",
+      "kind": "sector",
+      "title": "Certification/Testing",
+      "tickers": [
+        "ULS"
+      ],
+      "lede": "UL Solutions首批AI產品認證落地（UL 3115標準），分析師目標價87-96美元，Q3 EPS 0.62超預期",
+      "sentiment": 0.6,
+      "stories": [
+        {
+          "id": "uls-ai-ul-3115-34zj64",
+          "event_key": null,
+          "headline": "🟢 ULS推出AI安全認證UL 3115，數位認證業務突破",
+          "dek": "UL Solutions首批AI產品認證落地（UL 3115標準），分析師目標價87-96美元，Q3 EPS 0.62超預期",
+          "body_md": "**UL Solutions Q3 2026業績：**\n- **調整後EPS：$0.62/股**\n- FactSet預期：$0.61/股\n- **超出預期：+1.6%**\n\n**分析師目標價：**\n- 區間：$87-96美元（多家機構上調）\n- UBS維持買入評級，目標價$97\n- 看好利潤率與Q4執行力\n\n**重大突破：AI安全認證業務（UL 3115）**\n\n**1. UL 3115標準發佈**\n- 發佈日期：2026年10月31日\n- 全名：Outline of Investigation (OOI) for Safety of AI-Based Products\n- 內容：AI產品的技術、倫理、治理安全評估\n\n**2. 首批AI認證落地**\n- 2026年1月：推出測試與認證框架（插電式太陽能等應用）\n- 2026年11月：首批AI產品通過認證\n- 服務範圍：獨立第三方AI產品安全評估\n\n**3. 市場機會**\n- **AI監管浪潮**：全球各國要求AI產品安全認證\n- **企業需求**：科技公司需合規標籤進入市場\n- **垂直領域**：醫療AI、自駕、工業AI、消費電子AI\n\n**ULS業務模式：**\n- 認證服務：為產品頒發UL標誌（全球認可）\n- 客戶群：製造商需通過認證才能銷售\n- 定價權：高毛利、重複性收入\n\n**關鍵觀察點：**\n1. **UL 3115採用率**：多少AI產品廠商申請認證\n2. **認證週期**：審核速度是否跟上AI產品迭代\n3. **監管強制性**：各國是否立法要求AI安全認證\n4. **競爭對手**：TÜV、BSI等認證機構是否跟進\n\n**⚠️ 注意：ULS搜尋結果混雜**\nFutu API搜尋\"ULS\"會混入**ULS Group（日本物流公司，財年27半年報）**新聞。需搜尋\"UL Solutions\"或\"ULS certification\"才能區分美國認證公司（NYSE:ULS）與日本物流公司。\n\n**風險因素：**\n- 看跌期權開倉$247K（11月3日，bearish信號）\n- 2026成長預期放緩\n\n來源：Simply Wall St, UL Solutions, BusinessWire, LinkedIn, Futu",
+          "tickers": [
+            "ULS"
+          ],
+          "sector": "Certification/Testing",
+          "importance": 4,
+          "sentiment": 0.6,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "UL Solutions Launches Landmark Artificial Intelligence Safety Certification Services",
+              "url": "https://www.ul.com/news/ul-solutions-launches-landmark-artificial-intelligence-safety-certification-services",
+              "publisher": "UL Solutions",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "UL Solutions Debuts Testing and Certification Framework for Safer Plug-In Solar",
+              "url": "https://www.businesswire.com/news/home/20260108334847/en/UL-Solutions-Debuts-Testing-and-Certification-Framework-for-Safer-Plug-In-Solar-Across-the-United-States",
+              "publisher": "BusinessWire",
+              "published_at": "2026-01-08T00:00:00Z"
+            },
+            {
+              "title": "Earnings Flash (ULS) UL Solutions Inc. Posts Q3 Adjusted EPS $0.62 per Share",
+              "url": "https://news.futunn.com/en/post/1003254260",
+              "publisher": "Futu",
+              "published_at": "2026-11-03T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-commodities",
+      "kind": "sector",
+      "title": "Commodities",
+      "tickers": [
+        "GDE"
+      ],
+      "lede": "金價回調28%後守住4050美元，央行持續購金。Goldman目標4900，UBS 5400，JP Morgan預測Q4達6000",
+      "sentiment": 0.5,
+      "stories": [
+        {
+          "id": "4088-4150-6300-1vewadi",
+          "event_key": null,
+          "headline": "🟢 黃金價格4088企穩，投行目標4150-6300美元",
+          "dek": "金價回調28%後守住4050美元，央行持續購金。Goldman目標4900，UBS 5400，JP Morgan預測Q4達6000",
+          "body_md": "**黃金價格現況：**\n- 當前價格：約$4,050-$4,088/盎司\n- 近期回調：從高點下跌28%\n- 支撐因素：央行持續購金、CPI測試在即\n\n**投行目標價：**\n- **Goldman Sachs：$4,900/oz**（2026年底）\n- **UBS：$5,400/oz**\n- **JP Morgan：$6,000/oz**（Q4 2026），$6,300/oz（2027年底）\n- 短期阻力：$4,147\n\n**驅動因素：**\n1. **央行購金**：全球央行持續增持黃金儲備\n2. **地緣政治**：美伊緊張局勢、伊拉克戰爭影響\n3. **通膨對沖**：油價波動加劇，黃金避險需求\n4. **美元走弱**：Fed升息週期接近尾聲\n\n**GDE ETF特性：**\n- WisdomTree Efficient Gold Plus Equity Strategy Fund\n- 使用槓桿：同時配置美國黃金期貨+大型股\n- 槓桿比例：約1:1（50%黃金期貨+50%股票）\n- ⚠️ **風險**：槓桿放大波動，震盪市不利\n\n**⚠️ 注意：GDE ticker混淆**\nFutu API搜尋「GDE」返回**GDE Technology (002152.SZ 中國科技公司)**新聞，而非WisdomTree黃金ETF。需用完整名稱\"WisdomTree Gold ETF\"搜尋才能取得正確標的資訊。\n\n來源：FXEmpire, Discovery Alert, Goldman Sachs, JP Morgan, State Street",
+          "tickers": [
+            "GDE"
+          ],
+          "sector": "Commodities",
+          "importance": 4,
+          "sentiment": 0.5,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Gold Holds $4,088 as CPI Test Looms, Can It Break $4,147?",
+              "url": "https://www.fxempire.com/forecasts/article/gold-xauusd-silver-price-forecast-gold-holds-4088-as-cpi-test-looms-can-it-break-4147-1643495",
+              "publisher": "FXEmpire",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "Gold Is Forecast to Climb as Central Banks Buy the Precious Metal",
+              "url": "https://www.goldmansachs.com/insights/articles/gold-is-forecast-to-climb-as-central-banks-buy-the-precious-metal",
+              "publisher": "Goldman Sachs",
+              "published_at": "2026-11-10T00:00:00Z"
+            },
+            {
+              "title": "Gold Price Predictions for 2026 and 2027",
+              "url": "https://www.jpmorgan.com/insights/global-research/commodities/gold-prices",
+              "publisher": "JP Morgan",
+              "published_at": "2026-11-10T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-cybersecurity",
+      "kind": "sector",
+      "title": "Cybersecurity",
+      "tickers": [
+        "NET"
+      ],
+      "lede": "Cloudflare Q3業績強勁推動股價漲10%，網路威脅加劇帶動SASE、Zero Trust方案需求，Workers平台開發者採用率攀升",
+      "sentiment": 0.7,
+      "stories": [
+        {
+          "id": "net-q3-sase-zero-trust-1jmmb2s",
+          "event_key": null,
+          "headline": "🟢 NET Q3強勁+指引上調，SASE/Zero Trust需求爆發",
+          "dek": "Cloudflare Q3業績強勁推動股價漲10%，網路威脅加劇帶動SASE、Zero Trust方案需求，Workers平台開發者採用率攀升",
+          "body_md": "**Cloudflare Q3 2026業績：**\n- 股價反應：財報後暴漲10%+（盤後繼續漲14%+）\n- 2026全年指引：上調\n- 營收成長：強勁（具體數字待財報）\n\n**業務驅動力：**\n\n**1. 網路安全需求激增**\n- **DDoS攻擊規模飆升**：2025出現多起破紀錄的「超大流量DDoS攻擊」\n  - 超過1 Tbps（terabit/秒）\n  - 超過1 Bpps（billion packets/秒）\n- **SASE方案**（安全存取服務邊緣）需求旺盛\n- **Zero Trust解決方案**：企業加速採用\n\n**2. AI Agents與開發者平台**\n- 2026年11月定位：「連接雲公司」領導者\n- **Workers平台**：開發者採用率攀升（無需管理基建）\n- **AI Gateway**：AI應用安全閘道成新成長點\n\n**3. 網路規模與市佔**\n- 保護約20%的網路流量\n- Cloudforce One威脅研究團隊保護數百萬組織\n\n**2026網路安全趨勢（Cloudflare報告）：**\n- 敵對勢力武器化網路攻擊\n- 新興攻擊技術快速演進\n- 零日漏洞利用加速\n\n**投資啟示：**\n✅ 網路安全週期性成長，非一次性事件\n✅ AI工作負載推動邊緣運算需求\n✅ 毛利率高、訂閱制商業模式穩健\n\n來源：Globe and Mail, Yahoo Finance, Cloudflare Blog, Cloudflare Radar",
+          "tickers": [
+            "NET"
+          ],
+          "sector": "Cybersecurity",
+          "importance": 4,
+          "sentiment": 0.7,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "NET Stock Rises 10% Post Q3 Results: Should You Buy, Sell or Hold?",
+              "url": "https://www.theglobeandmail.com/investing/markets/stocks/CHKP/pressreleases/8735851/net-stock-rises-10-post-q3-results-should-you-buy-sell-or-hold/",
+              "publisher": "Globe and Mail",
+              "published_at": "2026-11-09T00:00:00Z"
+            },
+            {
+              "title": "Cloudflare Threat Report How adversaries are weaponizing the Internet 2026",
+              "url": "https://cf-assets.www.cloudflare.com/slt3lc6tev37/sWDBUMNVtEJB9ZFLt1dUU/8d69e92de2edfb3bf59e7d21d57e7e1a/Cloudflare-2026-threat-report.pdf",
+              "publisher": "Cloudflare",
+              "published_at": "2026-11-10T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-aerospace",
+      "kind": "sector",
+      "title": "Aerospace",
+      "tickers": [
+        "ASTS",
+        "AVAV"
+      ],
+      "lede": "Q3營收$42.3M（YoY+187%）、SpaceX與Blue Origin將負責發射、投行砍目標價B.Riley $65→$48、UBS降至$43",
+      "sentiment": 0.45,
+      "stories": [
+        {
+          "id": "asts-q3-3-45-2027-ceo-4fjp6r",
+          "event_key": null,
+          "headline": "🟢 ASTS — Q3營收近3倍增長、45顆衛星2027年中入軌，投行降評但CEO樂觀",
+          "dek": "Q3營收$42.3M（YoY+187%）、SpaceX與Blue Origin將負責發射、投行砍目標價B.Riley $65→$48、UBS降至$43",
+          "body_md": "**業績與展望**\n\nAST SpaceMobile Q3營收 **$42.3M**（去年同期$14.74M，YoY +187%），但低於預期$46.64M：\n- 稀釋EPS：-$0.44（vs 預期-$0.40）\n- 全年2026指引：$150-200M（維持不變）\n\n**衛星部署加速**\n\nCEO公布新火箭計畫：\n- **SpaceX** 與 **Jeff Bezos的Blue Origin** 將負責發射衛星\n- 目標：**2027年中前**達成45顆衛星在軌\n- 當前已有部分衛星運行，擴展速度加快\n\n**投行態度分歧**\n\n降評一派：\n- **B. Riley**: $65 → $48（維持Neutral）\n- **UBS**: Hold，降至$43\n- **BofA**: Hold，降至$45\n\n理由：營收不達預期、虧損擴大\n\n樂觀派：\n- 分析師認為「營收疲弱不重要」，關鍵在部署進度\n- CEO強調訂單率遠超產能\n\n**市場反應**\n\n11/9股價單日暴漲（發射計畫利多），但隨後回吐部分漲幅。期權市場出現 **$859K 看跌long put** 大單（機構對沖？）。\n\n**商業模式風險**\n\nRobotaxi是「對機器人計程車業務的押注」，而非傳統車輛銷售：\n- 監管審批不確定性高\n- 需大規模資本支出（衛星、地面站）\n- 盈利時程未明\n\n---\n\n**投資人困境**: 故事性強但燒錢速度快，衛星部署進度是唯一救贖",
+          "tickers": [
+            "ASTS"
+          ],
+          "sector": "Aerospace",
+          "importance": 3,
+          "sentiment": 0.2,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "What's Going On With AST SpaceMobile Shares Tuesday?",
+              "url": "https://news.futunn.com/en/post/1004040627",
+              "publisher": "Futu",
+              "published_at": "2026-11-10T14:27:39Z"
+            },
+            {
+              "title": "AST SpaceMobile Stock Falls. Why Its Weak Sales Don't Matter",
+              "url": "https://news.futunn.com/en/post/1004035192",
+              "publisher": "Futu",
+              "published_at": "2026-11-10T13:58:00Z"
+            },
+            {
+              "title": "ASTS Stock Soars as CEO Touts New Rocket Plan — SpaceX and Jeff Bezos' Blue Origin Set to Launch Its Satellites",
+              "url": "https://news.futunn.com/en/post/1003994533",
+              "publisher": "Futu",
+              "published_at": "2026-11-10T06:53:15Z"
+            },
+            {
+              "title": "Q3 Revenue Nearly Triples! AST SpaceMobile Accelerates Orbital Deployment: 45 Satellites to Be in Orbit by Mid-2027",
+              "url": "https://news.futunn.com/en/post/1003936519",
+              "publisher": "Futu",
+              "published_at": "2026-11-09T14:45:27Z"
+            }
+          ]
+        },
+        {
+          "id": "avav-940m-xviyug",
+          "event_key": null,
+          "headline": "🟢 AVAV — 無人機廠獲$940M神秘大單，股價單日飆漲",
+          "dek": "未透露客戶名稱的多年期產品交付與支援合約、上限$940M、Oppenheimer啟動覆蓋給Outperform評級",
+          "body_md": "**重磅訂單**\n\nAeroVironment 11/8宣布獲得**未公開美國客戶**授予的多年期合約：\n- 合約上限：**$940M**\n- 內容：產品交付、技術支援\n- 客戶：保密（推測為國防部門或情報機構）\n\n**市場反應**\n\n股價暴漲，市場稱「不到$1B的交易讓無人機廠商股票飛天」。\n\n**業務動向**\n\n- **合作夥伴**: Leonardo DRS被選為美國陸軍Enduring-High Energy Laser生產計畫的堅固整合專家（條款未披露）\n- **競爭格局**: Zipline私人股份1年漲222%，AeroVironment股價卻暴跌69%（本次訂單前）\n\n**分析師評級**\n\n- **Oppenheimer**: 啟動覆蓋，Outperform、目標價$205（看好Counter-UAS成長）\n- **Macquarie**: 啟動覆蓋，Outperform、目標價$210\n- **KeyBanc**: 維持Buy，目標價降至$200\n- **Citizens JMP**: 維持Market Outperform，目標價降至$170\n\n**期權動態**\n\n大單頻現：\n- $900K牛市Call Spread\n- $440K牛市Long Call\n- $232K熊市Long Put（對沖）\n\n**軍工背景**\n\nCounter-UAS（反無人機系統）需求激增，AeroVironment有望成為核心供應商。\n\n---\n\n**飛機產品開發與簽約商進度**: 美國軍方訂單為主要催化劑，國際市場拓展待觀察",
+          "tickers": [
+            "AVAV"
+          ],
+          "sector": "Aerospace",
+          "importance": 3,
+          "sentiment": 0.7,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Why Drone Maker AeroVironment's Stock Is Rocketing on This Sub-$1 Billion Deal",
+              "url": "https://news.futunn.com/en/post/1003913614",
+              "publisher": "Futu",
+              "published_at": "2026-11-09T04:50:20Z"
+            },
+            {
+              "title": "AeroVironment Receives Award From Undisclosed U.S. Client For Product Deliveries, Support With Ceiling Value Of $940M",
+              "url": "https://news.futunn.com/en/post/1003897882",
+              "publisher": "Futu",
+              "published_at": "2026-11-08T21:58:34Z"
+            },
+            {
+              "title": "Oppenheimer Initiates AeroVironment at Outperform With $205 Price Target",
+              "url": "https://news.futunn.com/en/post/1001962271",
+              "publisher": "Futu",
+              "published_at": "2026-10-20T08:06:22Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-display-technology",
+      "kind": "sector",
+      "title": "Display Technology",
+      "tickers": [
+        "8069.TWO"
+      ],
+      "lede": "H5產線完成、H6新竹廠年底投產、桃園觀音新廠規劃中、應用場景擴展至零售/醫院/交通/物流",
+      "sentiment": 0.3,
+      "stories": [
+        {
+          "id": "8069-two-h6-2026-eink-8ivrfy",
+          "event_key": null,
+          "headline": "🟢 8069.TWO（元太）— H6產線2026年底完工、大面積eink面板需求旺",
+          "dek": "H5產線完成、H6新竹廠年底投產、桃園觀音新廠規劃中、應用場景擴展至零售/醫院/交通/物流",
+          "body_md": "**產能擴張進程**\n\nE Ink Holdings（元太科技）產線佈局：\n- **H5產線**: 新竹現有廠區已完工投產\n- **H6產線**: 排定 **2026年底完工**，將生產大尺寸面板\n- **觀音新廠**: 規劃中（位於桃園觀音，台北外圍）\n\n**大面積面板重點**\n\n公司聚焦大尺寸eink顯示器開發，應用場景：\n- **零售**: 電子貨架標籤（ESL）、數位看板\n- **醫院**: 病房資訊顯示、藥物標示\n- **交通**: 公車站牌、機場航班資訊\n- **物流**: 倉儲標籤、配送追蹤\n\n**技術合作**\n\n與AUO Display Plus組建合資企業，生產大尺寸ePaper模組。\n\n**市場定位**\n\nE Ink技術源自MIT Media Lab，提供：\n- 超低功耗（陽光下可視、無需背光）\n- 適合長時間顯示靜態內容\n- 環保永續（與LCD/OLED相比）\n\n**美國擴張**\n\n在美國R&D總部動土擴建。\n\n**股價與估值**\n\n- 11/1收盤：NT$149（較前日NT$292暴跌49%）\n- Simply Wall St分析：2026成長與利潤展望疲軟，與擴張ePaper生態系統形成落差\n\n**InfoComm 2026展示**\n\n展出永續大尺寸彩色看板技術，吸引商業客戶。\n\n---\n\n**eink面板成長情況**: 應用場景持續擴展，但投資人對短期財務表現存疑",
+          "tickers": [
+            "8069.TWO"
+          ],
+          "sector": "Display Technology",
+          "importance": 3,
+          "sentiment": 0.3,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "E Ink (8069 TT) - by Michael Fritzell",
+              "url": "https://www.asiancenturystocks.com/p/deep-dive-e-ink-8069-tt",
+              "publisher": "Asian Century Stocks",
+              "published_at": "2026-10-15T00:00:00Z"
+            },
+            {
+              "title": "E Ink Holdings (TPEX:8069) - Stock Analysis",
+              "url": "https://simplywall.st/stocks/tw/tech/tpex-8069/e-ink-holdings-shares",
+              "publisher": "Simply Wall St",
+              "published_at": "2026-11-01T00:00:00Z"
+            },
+            {
+              "title": "E Ink Showcases the Future of Sustainable Large-Format Color Signage at InfoComm 2026",
+              "url": "https://www.eink.com/news/detail/E-Ink-Showcases-the-Future-of-Sustainable-Large-Format-Color-Signage-at-InfoComm-2026",
+              "publisher": "E Ink",
+              "published_at": "2026-06-01T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-e-commerce",
+      "kind": "sector",
+      "title": "E-commerce",
+      "tickers": [
+        "TCOM"
+      ],
+      "lede": "國際業務成長引擎、國內需求韌性、Morgan Stanley升目標價至$53、Q3財報11/16公布",
+      "sentiment": 0.6,
+      "stories": [
+        {
+          "id": "tcom-q2-rmb15-7b-6-ota-50-ai-400-998j2g",
+          "event_key": null,
+          "headline": "🟢 TCOM — Q2營收RMB15.7B增長6%、國際OTA飆漲50%、AI訂單暴增400%",
+          "dek": "國際業務成長引擎、國內需求韌性、Morgan Stanley升目標價至$53、Q3財報11/16公布",
+          "body_md": "**Q2財報亮點**\n\nTrip.com Group Q2 2026營收 **RMB 15.7B**（YoY +6%）：\n- **住宿預訂**: RMB 6.6B（+6%，排除SAMR罰款後+8%）\n- **交通票務**: RMB 5.4B\n- **國際OTA**: YoY +50%（核心增長動力）\n\n**AI驅動訂單**\n\nAI相關訂單量 YoY 暴增 **400%**，成為新增長點。\n\n**國內vs.國際**\n\n- 國內市場：韌性強，儘管宏觀環境複雜（燃油價格高、票價貴）\n- 國際市場：毛利率顯著高於國內（據Citi預估），擴張速度快\n\n**投行評級**\n\n- **Morgan Stanley**: 維持Buy，目標價 **$53**（11/8上調）\n- **Citi**: 維持Buy，預估Q3營收與調整後盈利符合預期\n- **UOB Kay Hian**: 加入大中華區選股名單\n\n**旅遊數據**\n\n- 國慶長途旅遊與出境遊數據強勁\n- 萬聖節期間香港本地景點與酒店預訂增長\n- 近60%香港受訪者曾出國參加演唱會（旅遊+娛樂融合）\n\n**Q3展望**\n\nQ3財報預定 **11/16** 盤後公布，Consensus預估：\n- EPS: **$1.18**\n- 營收: **$2.82B**\n\n**永續計畫**\n\n推出「My Travel Impact」工具，協助旅客追蹤碳足跡，回應75%旅客關注永續議題。\n\n---\n\n**國內業務情況**: 穩健但增速放緩；**國際毛利比較**: 遠高於國內，是未來重點投資方向",
+          "tickers": [
+            "TCOM"
+          ],
+          "sector": "E-commerce",
+          "importance": 3,
+          "sentiment": 0.6,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Morgan Stanley Maintains Trip.com With Buy Rating, Raises Target Price to $53",
+              "url": "https://news.futunn.com/en/post/1003881459",
+              "publisher": "Futu",
+              "published_at": "2026-11-08T10:11:00Z"
+            },
+            {
+              "title": "Trip.com Group Limited (TCOM) Q2 2026 Earnings Call Transcript",
+              "url": "https://tickertrends.io/transcripts/TCOM/Q2-earnings-transcript-2026",
+              "publisher": "TickerTrends",
+              "published_at": "2026-08-15T00:00:00Z"
+            },
+            {
+              "title": "Trip.com Group (TCOM) Set to Announce Earnings on Monday",
+              "url": "https://www.marketbeat.com/instant-alerts/upcoming-tripcom-group-tcom-projected-to-post-earnings-on-monday-2026-11-09/",
+              "publisher": "MarketBeat",
+              "published_at": "2026-11-09T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-etf-index",
+      "kind": "sector",
+      "title": "ETF/Index",
+      "tickers": [
+        "SPYM"
+      ],
+      "lede": "State Street SPDR S&P 500 ETF（SPYM）11月5-6日淨買入3億美元，增持502檔股票（蘋果買入2390萬美元）",
+      "sentiment": 0.3,
+      "stories": [
+        {
+          "id": "spym-11-nvidia-502-95ia0a",
+          "event_key": null,
+          "headline": "🟡 SPYM 11月大舉增持蘋果、NVIDIA，單日買入502檔",
+          "dek": "State Street SPDR S&P 500 ETF（SPYM）11月5-6日淨買入3億美元，增持502檔股票（蘋果買入2390萬美元）",
+          "body_md": "**SPYM近期交易動態：**\n\n**11月6日（週五）：**\n- 唯一淨買入的大型ETF\n- **502檔持股增加**，0檔減少\n- 買入標的：全面增持S&P 500成分股\n\n**11月5日（週四）：**\n- **淨買入：$301.8 million（3.018億美元）**\n- **蘋果（AAPL）：買入$23.9 million（2390萬美元）**\n- NVIDIA（NVDA）：顯著增持\n\n**SPYM特性：**\n- 追蹤指數：S&P 500\n- 費用率：極低（State Street SPDR系列）\n- 適用場景：長期配置 vs. SPY的短線交易優勢\n\n**機構動態：**\n- Ethic Inc. Q3持股增加78.4%\n- 持股數：52,717股\n- 13F申報：多家機構增持SPYM\n\n**11月S&P 500市場儀表板（Seeking Alpha）：**\n- 估值、品質、動能三指標分析\n- 8檔股票估值低於同業\n- 量化風險與價值分析\n\n**關鍵觀察點：**\n1. **Rebalance影響**：11月指數調整是否影響SPYM\n2. **資金流向**：散戶vs.機構持續買入\n3. **估值水平**：S&P 500本益比仍處高位\n\n**與QQQM比較：**\n- SPYM：更分散（500檔 vs. 100檔）\n- QQQM：科技集中度更高\n- SPYM：防禦性較強（金融、醫療、消費佔比）\n\n來源：GuruFocus, State Street, American Banking News, Seeking Alpha",
+          "tickers": [
+            "SPYM"
+          ],
+          "sector": "ETF/Index",
+          "importance": 3,
+          "sentiment": 0.3,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "State Street SPDR Portfolio S&P 500 ETF (SPYM) Adds Apple and Nvidia on Nov. 6",
+              "url": "https://www.gurufocus.com/news/9188230/state-street-spdr-portfolio-sp-500-etf-spym-adds-apple-and-nvidia-on-nov-6",
+              "publisher": "GuruFocus",
+              "published_at": "2026-11-06T00:00:00Z"
+            },
+            {
+              "title": "State Street SPDR Portfolio S&P 500 (SPYM) Buys $23.9 Million More Apple on Nov. 5",
+              "url": "https://www.gurufocus.com/news/9184570/state-street-spdr-portfolio-sp-500-spym-buys-239-million-more-apple-on-nov-5",
+              "publisher": "GuruFocus",
+              "published_at": "2026-11-05T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-healthcare",
+      "kind": "sector",
+      "title": "Healthcare",
+      "tickers": [
+        "OZEM",
+        "NVO"
+      ],
+      "lede": "Wegovy口服藥獲批、Tirzepatide超越Semaglutide成最受歡迎藥物、TrumpRx計畫降價至$245/月",
+      "sentiment": 0.5,
+      "stories": [
+        {
+          "id": "ozem-etf-12-glp-1-novo-re9gev",
+          "event_key": null,
+          "headline": "⚠️ OZEM（減肥藥ETF）— 12%美國成人使用GLP-1藥物、Novo上調全年預測",
+          "dek": "Wegovy口服藥獲批、Tirzepatide超越Semaglutide成最受歡迎藥物、TrumpRx計畫降價至$245/月",
+          "body_md": "**市場滲透率創新高**\n\n2026年中統計：約 **12-13%** 美國成年人正在使用GLP-1受體激動劑（Semaglutide或Tirzepatide），為處方減肥藥史上最高採用率。\n\n**藥物競爭格局**\n\n- **Tirzepatide**（Mounjaro/Zepbound）：2026年初超越Semaglutide成為最受歡迎GLP-1分子\n- **Wegovy口服藥**：2026年1月獲批（首款口服GLP-1減肥藥），約$149/月現金價\n- **Wegovy HD**：7.2mg高劑量版本，2026年3月獲批\n\n**價格戰**\n\n2025年11月TrumpRx定價協議：\n- 品牌Wegovy與Ozempic：**$245/月**（透過該計畫）\n- 大幅低於原價，提升可及性\n\n**Novo Nordisk財報**\n\n11/4 Novo再度上調全年預測：\n- Wegovy口服藥與Ozempic注射劑提振營收\n- 超出預期表現\n\n**市場規模**\n\n2026年GLP-1市場顯著擴大動因：\n- 降價（TrumpRx等計畫）\n- 老年人獲得肥胖藥物保險覆蓋\n- 口服劑型獲批（降低使用門檻）\n\n**91%美國人認知**\n\n民調：91%美國成年人知曉GLP-1減肥藥（2年前80%）。\n\n**OZEM ETF注意**\n\nFutu搜尋「OZEM」僅返回1則舊聞（2020年評級文章），顯示該ticker關注度低或為新發行ETF。\n\n---\n\n**減肥筆使用情形**: 滲透率快速攀升，口服藥推出改變市場格局，但長期健康影響與停藥復胖問題仍受質疑",
+          "tickers": [
+            "OZEM",
+            "NVO"
+          ],
+          "sector": "Healthcare",
+          "importance": 3,
+          "sentiment": 0.5,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Semaglutide in 2026: usage statistics, top brands, and market trends",
+              "url": "https://getheally.com/patients/news/semaglutide-in-2026-how-many-people-use-it-what-brands-lead-and-where-the-market-is-heading",
+              "publisher": "Heally",
+              "published_at": "2026-09-01T00:00:00Z"
+            },
+            {
+              "title": "Novo Boosts Forecast on Demand for Wegovy Pill, Ozempic",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-04/novo-boosts-forecast-as-wegovy-pill-beats-estimates",
+              "publisher": "Bloomberg",
+              "published_at": "2026-11-04T00:00:00Z"
+            },
+            {
+              "title": "How Many Americans Are on Ozempic? GLP-1 Statistics 2026",
+              "url": "https://pabau.com/blog/glp-1-statistics/",
+              "publisher": "Pabau",
+              "published_at": "2026-10-01T00:00:00Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sector-staffing-hr",
+      "kind": "sector",
+      "title": "Staffing/HR",
+      "tickers": [
+        "KFY"
+      ],
+      "lede": "重組報告板塊為新地理分區、股東批准長期激勵計畫擴大、UBS升目標價至$82",
+      "sentiment": 0.1,
+      "stories": [
+        {
+          "id": "kfy-q1-goldman-truist-buy-ai-11xaqc7",
+          "event_key": null,
+          "headline": "⚠️ KFY — Q1營收與盈利待觀察、Goldman/Truist維持Buy、AI對人力業務影響未明",
+          "dek": "重組報告板塊為新地理分區、股東批准長期激勵計畫擴大、UBS升目標價至$82",
+          "body_md": "**業務重組**\n\nKorn Ferry於9月宣布**重整報告板塊**為新地理分區結構，以更好反映全球業務佈局。\n\n**股東大會**\n\n股東批准擴大長期激勵計畫（LTIP），用於留才與激勵高管。\n\n**分析師評級**\n\n- **Goldman Sachs**: 維持Buy、目標價 **$94**\n- **Truist Financial**: 維持Buy、目標價 **$100**\n- **UBS**: 維持Neutral、目標價 $74 → **$82**\n\n**Q1財報待發**\n\nQ1 2027（FY）財報已於10月底公布（10-Q檔案提交），但Futu新聞僅涵蓋至9月分析。\n\n**人力業務情況**\n\n- 行業處於「低火、低僱」（low-fire, low-hire）模式\n- AI對業務的增長影響：尚無明確數據，分析師關注AI工具如何改變招聘流程\n\n**股價表現**\n\n10月一度創下2025年以來最長連續下跌，但評級仍偏正面。\n\n**行業對比**\n\nAeroVironment與Korn Ferry被TipRanks並列為「分析師青睞的工業股」。\n\n---\n\n**AI對業務增長影響**: 未來季度需關注AI招聘工具（如自動簡歷篩選、面試AI）是否擴大或侵蝕傳統顧問需求",
+          "tickers": [
+            "KFY"
+          ],
+          "sector": "Staffing/HR",
+          "importance": 2,
+          "sentiment": 0.1,
+          "merged_count": 1,
+          "sources": [
+            {
+              "title": "Goldman Sachs Maintains Korn Ferry With Buy Rating, Maintains Target Price $94",
+              "url": "https://news.futunn.com/en/post/79233866",
+              "publisher": "Futu",
+              "published_at": "2026-09-11T12:33:00Z"
+            },
+            {
+              "title": "Truist Financial Maintains Korn Ferry With Buy Rating, Announces Target Price $100",
+              "url": "https://news.futunn.com/en/post/79156482",
+              "publisher": "Futu",
+              "published_at": "2026-09-08T17:31:00Z"
+            },
+            {
+              "title": "UBS Maintains Korn Ferry With Hold Rating, Raises Target Price to $82",
+              "url": "https://news.futunn.com/en/post/79085286",
+              "publisher": "Futu",
+              "published_at": "2026-09-06T13:11:00Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
