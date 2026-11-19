@@ -1,0 +1,437 @@
+/* NewsGPT — broadsheet stylesheet.
+   System fonts only: no webfonts, no network, works straight off disk. */
+
+:root {
+  --paper:       #faf8f3;
+  --paper-sunk:  #f2efe6;
+  --ink:         #15130f;
+  --ink-soft:    #4a463d;
+  --ink-faint:   #78736a;
+  --rule:        #c9c3b6;
+  --rule-strong: #15130f;
+  --accent:      #8a2b1f;   /* vermillion, for kickers and footnotes */
+  --up:          #1f6b3a;
+  --down:        #9a2b24;
+
+  --serif:  "Iowan Old Style", "Palatino Linotype", Palatino, "Book Antiqua",
+            Georgia, "Times New Roman", serif;
+  --sans:   "Inter", "Segoe UI", system-ui, -apple-system, Helvetica, Arial, sans-serif;
+
+  --col-gap: 1.75rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper:       #15140f;
+    --paper-sunk:  #1d1b16;
+    --ink:         #ebe6da;
+    --ink-soft:    #b3ac9d;
+    --ink-faint:   #8a8478;
+    --rule:        #3c3932;
+    --rule-strong: #ebe6da;
+    --accent:      #e47a68;
+    --up:          #6fc08d;
+    --down:        #e08a82;
+  }
+}
+
+* { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  padding: 0 clamp(0.75rem, 3vw, 3rem) 4rem;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-size: 17px;
+  line-height: 1.5;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; }
+
+.skip {
+  position: absolute;
+  left: -9999px;
+}
+.skip:focus {
+  left: 1rem; top: 1rem;
+  z-index: 10;
+  padding: 0.5rem 0.75rem;
+  background: var(--paper);
+  border: 1px solid var(--rule-strong);
+  font-family: var(--sans);
+  font-size: 0.8rem;
+}
+
+/* ---------- Masthead ---------- */
+
+.masthead { max-width: 1800px; margin: 0 auto; padding-top: 1.5rem; }
+
+.masthead-rule { border-top: 1px solid var(--rule-strong); }
+
+.masthead-rule--double {
+  border-top: 3px solid var(--rule-strong);
+  border-bottom: 1px solid var(--rule-strong);
+  height: 4px;
+  margin-bottom: 1.75rem;
+}
+
+.masthead-top {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1rem 0 0.5rem;
+}
+
+.masthead-side {
+  flex: 1 1 0;
+  font-family: var(--sans);
+  font-size: 0.66rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  line-height: 1.6;
+  padding-bottom: 0.6rem;
+}
+.masthead-side--right { text-align: right; }
+
+.nameplate {
+  flex: 0 0 auto;
+  margin: 0;
+  font-size: clamp(2.6rem, 8vw, 5.5rem);
+  font-weight: 700;
+  letter-spacing: -0.035em;
+  line-height: 0.95;
+  font-variant-ligatures: common-ligatures;
+}
+
+.masthead-bar {
+  display: flex;
+  align-items: baseline;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+  padding: 0.5rem 0 0.75rem;
+  border-top: 1px solid var(--rule);
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.dateline { font-weight: 600; letter-spacing: 0.12em; }
+.masthead-dot, .masthead-note { color: var(--ink-faint); }
+.masthead-dot { letter-spacing: 0; }
+
+.archive { margin-left: auto; display: flex; align-items: baseline; gap: 0.45rem; }
+.archive-label { color: var(--ink-faint); }
+
+.archive select {
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+  background: var(--paper);
+  border: 1px solid var(--rule);
+  border-radius: 0;
+  padding: 0.22rem 0.4rem;
+}
+.archive select:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
+
+/* ---------- Banner (sample-data warning) ---------- */
+
+.banner {
+  max-width: 1800px;
+  margin: 0 auto 1.75rem;
+  padding: 0.6rem 0.9rem;
+  border-top: 1px solid var(--accent);
+  border-bottom: 1px solid var(--accent);
+  background: var(--paper-sunk);
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-align: center;
+}
+
+/* ---------- Front-page lead ---------- */
+
+main { max-width: 1800px; margin: 0 auto; }
+
+.lead {
+  padding-bottom: 1.75rem;
+  margin-bottom: 1.75rem;
+  border-bottom: 3px double var(--rule-strong);
+}
+
+.lead-kicker {
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.6rem;
+}
+
+.lead-headline {
+  margin: 0 0 0.6rem;
+  font-size: clamp(1.9rem, 4.4vw, 3.4rem);
+  font-weight: 700;
+  line-height: 1.04;
+  letter-spacing: -0.02em;
+  max-width: 24ch;
+}
+
+.lead-dek {
+  margin: 0 0 1.25rem;
+  font-size: clamp(1.05rem, 1.7vw, 1.4rem);
+  font-style: italic;
+  color: var(--ink-soft);
+  line-height: 1.38;
+  max-width: 52ch;
+}
+
+/* The lead's body is the one place true newspaper column-flow reads well. */
+.lead-body {
+  columns: 3 17rem;
+  column-gap: var(--col-gap);
+  column-rule: 1px solid var(--rule);
+  text-align: justify;
+  hyphens: auto;
+}
+.lead-body > p { margin: 0 0 0.85rem; }
+.lead-body > p:first-child::first-letter {
+  float: left;
+  font-size: 3.3em;
+  line-height: 0.82;
+  font-weight: 700;
+  padding: 0.05em 0.09em 0 0;
+}
+
+/* ---------- Column grid ---------- */
+
+/* Multi-column, not grid: sections pack and stack to fill each column, the way
+   a real page does. Grid would strand a short section alone on its own row with
+   a void beside it, and column-rule gives us the gutter hairlines for free. */
+.columns {
+  columns: 4 19rem;
+  column-gap: var(--col-gap);
+  column-rule: 1px solid var(--rule);
+}
+
+.column {
+  /* Keep a section whole within one column where it fits. */
+  break-inside: avoid;
+  margin: 0 0 2rem;
+}
+
+/* A section taller than the column has to break; keep its parts legible. */
+.column > * { break-inside: avoid; }
+
+.column-head {
+  padding-bottom: 0.55rem;
+  margin-bottom: 1.1rem;
+  border-bottom: 2px solid var(--rule-strong);
+}
+
+.column-kicker {
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 0.3rem;
+}
+.column-kicker .count { margin-left: auto; font-weight: 400; letter-spacing: 0.08em; }
+
+.column-title {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  letter-spacing: -0.015em;
+  line-height: 1.1;
+}
+
+/* A promoted single-ticker column gets monospace-ish treatment to read as a symbol. */
+.column--ticker .column-title {
+  font-family: var(--sans);
+  letter-spacing: 0.06em;
+  font-size: 1.35rem;
+}
+
+.sentiment {
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.sentiment--up   { color: var(--up); }
+.sentiment--down { color: var(--down); }
+.sentiment--flat { color: var(--ink-faint); }
+
+.tickers {
+  margin-top: 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  letter-spacing: 0.1em;
+  color: var(--ink-faint);
+}
+
+.column-lede {
+  margin: 0 0 1.4rem;
+  font-style: italic;
+  font-size: 0.98rem;
+  line-height: 1.42;
+  color: var(--ink-soft);
+}
+.column-lede::first-letter {
+  float: left;
+  font-style: normal;
+  font-size: 2.6em;
+  line-height: 0.84;
+  font-weight: 700;
+  color: var(--ink);
+  padding: 0.04em 0.08em 0 0;
+}
+
+/* ---------- Stories ---------- */
+
+.story { margin-bottom: 1.5rem; }
+.story + .story { padding-top: 1.4rem; border-top: 1px solid var(--rule); }
+
+.story-headline {
+  margin: 0 0 0.35rem;
+  font-size: 1.14rem;
+  font-weight: 700;
+  line-height: 1.18;
+  letter-spacing: -0.01em;
+}
+
+/* Sector lead story gets visible extra weight. */
+.story--major .story-headline { font-size: 1.42rem; line-height: 1.12; }
+
+.story-dek {
+  margin: 0 0 0.6rem;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--ink-soft);
+  line-height: 1.4;
+}
+
+.story-body { text-align: justify; hyphens: auto; font-size: 0.97rem; }
+.story-body > p { margin: 0 0 0.7rem; }
+.story-body strong { font-weight: 700; }
+
+.story-meta {
+  margin-top: 0.5rem;
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 0.7rem;
+  align-items: baseline;
+}
+
+.story-tickers { font-weight: 700; color: var(--ink-soft); letter-spacing: 0.1em; }
+
+.merged { font-style: normal; }
+
+/* Footnotes: every claim traceable to a scraped URL. */
+.footnotes { display: flex; flex-wrap: wrap; gap: 0.4rem 0.7rem; }
+
+.footnote {
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  color: var(--ink-faint);
+}
+.footnote:hover, .footnote:focus-visible { color: var(--accent); border-color: var(--accent); }
+.footnote sup { color: var(--accent); font-weight: 700; padding-right: 0.15em; }
+
+/* ---------- Briefs ---------- */
+
+.briefs { margin-top: 1.5rem; padding-top: 0.5rem; border-top: 2px solid var(--rule-strong); }
+
+.briefs-head {
+  margin: 0 0 0.75rem;
+  font-family: var(--sans);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.brief {
+  padding: 0.5rem 0;
+  border-top: 1px dotted var(--rule);
+  font-size: 0.9rem;
+  line-height: 1.34;
+}
+.brief:first-of-type { border-top: 0; }
+.brief-headline { font-weight: 600; }
+.brief .story-meta { margin-top: 0.25rem; }
+
+/* ---------- Colophon ---------- */
+
+.colophon {
+  max-width: 1800px;
+  margin: 2.5rem auto 0;
+  padding-top: 1rem;
+  border-top: 1px solid var(--rule-strong);
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  line-height: 1.6;
+  letter-spacing: 0.03em;
+  color: var(--ink-faint);
+}
+.colophon p { margin: 0 0 0.4rem; max-width: 80ch; }
+.colophon-meta { font-size: 0.62rem; letter-spacing: 0.07em; text-transform: uppercase; }
+
+.empty {
+  padding: 3rem 0;
+  font-style: italic;
+  color: var(--ink-faint);
+}
+
+/* ---------- Narrow screens: stack, drop the rules ---------- */
+
+@media (max-width: 640px) {
+  body { font-size: 16px; }
+  .columns { columns: 1; }
+  .column {
+    margin-bottom: 1.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--rule);
+  }
+  .columns > .column:first-child { border-top: 0; padding-top: 0; }
+  .masthead-top { flex-direction: column; align-items: center; text-align: center; }
+  .masthead-side, .masthead-side--right { text-align: center; padding-bottom: 0; }
+  .lead-body { columns: 1; }
+  .archive { margin-left: 0; }
+}
+
+/* ---------- Print: it is a newspaper, after all ---------- */
+
+@media print {
+  :root { --paper: #fff; --ink: #000; --ink-soft: #333; --ink-faint: #555; --rule: #bbb; --rule-strong: #000; --accent: #000; }
+  body { padding: 0; font-size: 10pt; }
+  .archive, .skip, .colophon-meta { display: none; }
+  .columns { columns: 4; }
+  .story, .brief, .column-head { break-inside: avoid; }
+}
